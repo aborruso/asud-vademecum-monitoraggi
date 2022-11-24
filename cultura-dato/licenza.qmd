@@ -1,0 +1,67 @@
+---
+title: "Indicare una licenza"
+---
+
+La **licenza** spesso viene vista come uno strumento formale che indica **cosa non si può fare** con un'immagine, una canzone, un libro ... e anche con i dati.
+
+In realtà, la licenza restituisce all'utente **cosa può fare** con il materiale a cui è associata, è un **contratto** tra chi lo pubblica e chi ne farà uso.<br>
+Ci sono diversi tipi di licenze, alcune sono gratuite, altre a pagamento, alcune sono molto complesse, altre molto semplici.
+
+::: aside
+Nel contesto dei dati aperti si parla spesso di "**riuso**" dei dati e non di "uso".
+:::
+
+La licenza è qualcosa che sostiene la **creatività**, perché avere chiaro da subito cosa è possibile fare con dei dati, permette di fare delle buone scelte iniziali e direzionare il proprio intelletto.<br>
+Una **licenza aperta** lo fa a maggior forza, perché fa in modo che ci sia più disponibilità di "materia prima" riutilizzabile.
+
+::: {.callout-note}
+## Licenza aperta
+
+Una licenza open/aperta per i dati è quella che consente a chiunque di **accedervi**, **utilizzarli**, **modificarli** e **condividerli** a **qualsiasi scopo**, anche commerciale, avendo al massimo come limite misure che ne preservino la provenienza e l'apertura.
+:::
+
+## Le licenze Creative Commons
+
+[Queste licenze](https://creativecommons.org/) - dette in breve `CC` -- sono tra le più conosciute e usate. Sono state create per rendere meno formale e più efficace l'utilizzo delle licenze, per poterne sceglierne una in autonomia senza essere un esperto di diritto.
+
+Sul sito di riferimento c'è uno strumento comodo per scegliere la licenza che più si adatta alle proprie esigenze, è il [*Creative Commons License Chooser*](https://creativecommons.org/choose/?lang=it), a partire da due domande:
+
+- Consenti che vengano condivisi adattamenti della tua opera?
+  - Sì
+  - No
+  - Sì, fintanto che gli altri condividono allo stesso modo
+- Permetti che la tua opera venga utilizzata a scopi commerciali?
+  - Sì
+  - No
+
+Se si risponde con un "No" a una delle due domande - è possibile farlo - la licenza non sarà aperta, non sarà una licenza "*Free Culture*".<br>
+Con la risposta "**Sì**" a entrambe - uno dei due "Sì" - si ottiene una licenza aperta, che consente il riutilizzo dei dati anche a scopo commerciale.
+
+Dopo avere risposto alle domande si ottiene la definizione della licenza, il **link** ad essa e anche le modalità con cui associarla alla propria "opera", ai propri dati.
+
+::: {.callout-tip}
+## È essenziale inserire il link alla licenza
+
+Quando si vuole associare una licenza ai propri dati è essenziale dichiararla e associare il link alla licenza stessa, in modo che chiunque possa leggerla e capire cosa può fare con i dati. Come ad esempio qui sotto.
+
+*Quest'opera è distribuita con [Licenza Creative Commons Attribuzione 4.0 Internazionale](https://creativecommons.org/licenses/by/4.0/deed.it)*.
+:::
+
+
+## La pubblica amministrazione e le licenze
+
+La normativa italiana[^decretoDatiAperti] prevede che le pubbliche amministrazioni, gli organismi di diritto pubblico e le imprese pubbliche mettono a disposizione i propri documenti, in **formato aperto** e **leggibile meccanicamente**.
+
+::: aside
+Un documento è **leggibile meccanicamente** se ha un formato di file strutturato in modo tale che le applicazioni software possano agevolmente identificarlo, riconoscerlo ed estrarne dati specifici.
+:::
+
+Uno dei requisiti per il formato aperto è che i dati siano **riutilizzabili**, quindi è necessario che la PA associ una licenza aperta ai dati.<br>
+Le [linee guida open data per la PA](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/aspetti-legali-e-di-costo/licenze-e-condizioni-di-riutilizzo.html), contengono gli obblighi e le indicazioni per la scelta della licenza e la licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) è - tra le tante aperte - quella che dovrebbe essere più usata.
+
+Se non la PA non specifica una licenza, si assume che i dati siano pubblicati con una licenza aperta, il cosiddetto "*open by default*".
+
+## Associare una licenza ai propri dati
+
+
+[^decretoDatiAperti]: [Decreto Legislativo 24 gennaio 2006, n. 36](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig) - Attuazione della direttiva (UE) 2019/1024 relativa all'apertura dei dati e al riutilizzo dell'informazione del settore pubblico

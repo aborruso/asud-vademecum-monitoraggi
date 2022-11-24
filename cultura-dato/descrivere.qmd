@@ -1,0 +1,22 @@
+---
+title: "Descrivere i dati"
+---
+
+Uno dei principi di base è quello di **descrivere** i **dati** raccolti, di associare ai dati i cosiddetti "**metadati**", per fare in modo di poter rispondere a domande come: "quando sono stati raccolti?", "con che strumenti?", "come è fatta la tabella in cui sono raccolti, cosà è presente in ogni colonna?", "dove sono posizionate le stazioni di campionamento?".
+
+Chi pubblica i dati e gli/le utenti che li utilizzano, non si conoscono fra loro, quindi, è essenziale fornire quelle informazioni che aiutino le persone e i *personal computer* a comprendere i dati.
+
+Si raccomanda quindi di associare ai dati delle informazioni descrittive di base, i cosìdetti **metadati**. A solo scopo esemplificativo:
+
+|                                |                                                        |
+|--------------------------------|--------------------------------------------------------|
+| **Titolo**                     | Carico microbiologico dei corpi idrici fluviali, 2020  |
+| **URL**                        | https://sitoEsempio/dati/caricomicrobio.html           |
+| **Descrizione**                |                                                        |
+| **Data di pubblicazione**      | 2020-12-31                                             |
+| **Periodo di tempo coperto**   | L'anno solare 2020                                     |
+| **Frequenza di aggiornamento** | Annuale                                                |
+| **Copertura spaziale**         | Città metropolitana di Roma Capitale                   |
+| **Tema**                       | Ambiente                                               |
+
+@knuth84

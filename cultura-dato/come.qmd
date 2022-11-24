@@ -1,0 +1,17 @@
+---
+title: "Come dovrebbero essere pubblicati i dati"
+---
+
+I dati ambientali pubblicati sul web, dovrebbero essere come l'"acqua buona" di un fiume: trasparente, fresca, ricca di elementi e di origine nota.
+
+Fare in modo che sia così **richiede** un po' di **cura**, ma è semplice.
+
+Deve essere possibile rispondere a queste domande:
+
+  - Come sono stati raccolti?
+  - Come sono stutturati? Sono tabelle?
+  - Che tipo di dati ci sono nelle colonne delle tabelle?
+  - Chi ha creato i dati? Chi ne è responsabile?
+  - In che formato sono pubblicati?
+  - A quale indirizzo web sono pubblicati?
+  - Quali sono i termini d'uso? Come possono essere utilizzati?

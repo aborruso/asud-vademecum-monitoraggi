@@ -1,0 +1,30 @@
+project:
+  type: book
+  render:
+    - "!tmp/"
+
+book:
+  title: "Vademecum monitoraggio civico"
+  author: "ASud"
+  date: "22/11/2022"
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - part: cultura-dato/come.qmd
+      chapters:
+        - cultura-dato/descrivere.qmd
+        - cultura-dato/licenza.qmd
+        - cultura-dato/formati.qmd
+        - cultura-dato/scaricabili.qmd
+    - part: "Strumenti"
+      chapters:
+        - cultura-dato/accesso.qmd
+        - cultura-dato/raccolta.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
