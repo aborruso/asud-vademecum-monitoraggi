@@ -2,6 +2,8 @@
 title: "Indicare una licenza"
 ---
 
+## Introduzione
+
 La **licenza** spesso viene vista come uno strumento formale che indica **cosa non si può fare** con un'immagine, una canzone, un libro ... e anche con i dati.
 
 In realtà, la licenza restituisce all'utente **cosa può fare** con il materiale a cui è associata, è un **contratto** tra chi lo pubblica e chi ne farà uso.<br>
@@ -39,29 +41,37 @@ Con la risposta "**Sì**" a entrambe - uno dei due "Sì" - si ottiene una licenz
 
 Dopo avere risposto alle domande si ottiene la definizione della licenza, il **link** ad essa e anche le modalità con cui associarla alla propria "opera", ai propri dati.
 
-::: {.callout-tip}
-## È essenziale inserire il link alla licenza
+## La Pubblica Amministrazione (PA) e le licenze
 
-Quando si vuole associare una licenza ai propri dati è essenziale dichiararla e associare il link alla licenza stessa, in modo che chiunque possa leggerla e capire cosa può fare con i dati. Come ad esempio qui sotto.
-
-*Quest'opera è distribuita con [Licenza Creative Commons Attribuzione 4.0 Internazionale](https://creativecommons.org/licenses/by/4.0/deed.it)*.
-:::
-
-
-## La pubblica amministrazione e le licenze
-
-La normativa italiana[^decretoDatiAperti] prevede che le pubbliche amministrazioni, gli organismi di diritto pubblico e le imprese pubbliche mettono a disposizione i propri documenti, in **formato aperto** e **leggibile meccanicamente**.
+La normativa italiana[^decretoDatiAperti] prevede che le Pubbliche Amministrazioni, gli organismi di diritto pubblico e le imprese pubbliche mettono a disposizione i propri documenti, in **formato aperto** e **leggibile meccanicamente**.
 
 ::: aside
 Un documento è **leggibile meccanicamente** se ha un formato di file strutturato in modo tale che le applicazioni software possano agevolmente identificarlo, riconoscerlo ed estrarne dati specifici.
 :::
 
 Uno dei requisiti per il formato aperto è che i dati siano **riutilizzabili**, quindi è necessario che la PA associ una licenza aperta ai dati.<br>
-Le [linee guida open data per la PA](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/aspetti-legali-e-di-costo/licenze-e-condizioni-di-riutilizzo.html), contengono gli obblighi e le indicazioni per la scelta della licenza e la licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) è - tra le tante aperte - quella che dovrebbe essere più usata.
+Le [linee guida open data per la PA](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/aspetti-legali-e-di-costo/licenze-e-condizioni-di-riutilizzo.html), contengono gli obblighi e le indicazioni per la scelta della licenza: la licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it) è una di quelle di cui la PA dovrebbe fare maggiore uso.
 
-Se non la PA non specifica una licenza, si assume che i dati siano pubblicati con una licenza aperta, il cosiddetto "*open by default*".
+::: {.callout-tip}
+## Se la PA pubblica dei dati, senza associare a questi una licenza?
 
-## Associare una licenza ai propri dati
+Se non lo fa, **si assume** che i dati siano pubblicati con **una licenza aperta**, il cosiddetto "*open by default*".
+:::
 
+## Quale licenza per i propri dati?
+
+Nel contesto del monitoraggio civico ambientale, i dati sono raccolti (quasi sempre) con l'obiettivo di esssere pubblicati *online*, in modo che possano essere **consultati** e **riutilizzati** da chiunque.<br>
+Quindi sono da **associare** a una delle **licenze aperte** adatte ai **dati**, come quelle elencate nelle [linee guida](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/aspetti-legali-e-di-costo/licenze-e-condizioni-di-riutilizzo.html) citate sopra.<br>
+La licenza Creative Commons Attribuzione 4.0 Internazionale ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)) è ancora una volta una buona scelta.
+
+
+
+::: {.callout-tip}
+## È essenziale inserire il link alla licenza
+
+Quando si vuole associare una licenza ai propri dati è essenziale dichiararla e associare il link alla licenza stessa, in modo che chiunque possa leggerla e capire cosa può fare con i dati. Come ad esempio qui sotto.
+
+*Questi dati sono distribuiti con [Licenza Creative Commons Attribuzione 4.0 Internazionale](https://creativecommons.org/licenses/by/4.0/deed.it)* (o se si vuole, anche più brevemente [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)).
+:::
 
 [^decretoDatiAperti]: [Decreto Legislativo 24 gennaio 2006, n. 36](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig) - Attuazione della direttiva (UE) 2019/1024 relativa all'apertura dei dati e al riutilizzo dell'informazione del settore pubblico

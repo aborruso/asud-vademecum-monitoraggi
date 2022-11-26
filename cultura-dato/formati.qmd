@@ -2,5 +2,125 @@
 title: "Formati standard e \"giusti\""
 ---
 
+## Introduzione
 
-Ciao
+Cosa è un formato? Indica il modo in cui un'immagine, un video, un documento di testo, una tabella, sono salvati in un *computer*.<br>
+In parole semplici il formato è quello di quando si dice "ti mando un file in word" o "ti mando un file in pdf".<br>
+In realtà è un concetto più complesso.
+
+I formati dei file sono nel contesto dei dati, e in particolare in quello del monitoraggio civico ambientale, un tema importante. Si possono fare infatti scelte "bloccanti", che impediscono pesantemente l'accesso alle informazioni pubblicate.
+
+## Quali formati per i dati ambientali?
+
+Il formato ha anche a che fare con la "**forma**" e per i dati ce ne sono diverse. Tra queste la più diffusa è quella **tabellare**, ovvero quella in cui i dati sono organizzati in **righe** e **colonne** (vedi paragrafo sulla "[forma](forma.qmd)" di una tabella).<br>
+Non è l'unica possibile, ma è tra le più semplici e diffuse per archiviare e pubblicare dati raccolti da un sensore.
+
+Il formato di un file è riconoscibile (tra le altre cose) anche dalla sua **estensione**, ovvero la parte finale del suo nome, dopo il carattere `.` (il punto).<br>
+Ad esempio, in un file in formato Excel, denominato `2022-11-24_tevere.xls`, l'estensione è `xls`.
+
+Il formato di archiviazione di un'analisi ambientale non si può scegliere sempre, a volte è lo strumento di monitoraggio - il sensore - che ne impone uno.<br>
+Se i dati raccolti si vogliono **rendere pubblici** e **utilizzabili** da altre persone, bisogna scegliere un formato che sia **aperto**, **standardizzato** e **facilmente leggibile** da un computer (*machine readable*).
+
+Tra le estensioni e i formati tabellari più diffusi:
+
+- `.xlsx` (Excel 2007+)
+- `.ods` (OpenOffice calc)
+- `.csv` (Comma Separated Values)
+- `.tsv` (Tab Separated Values)
+
+Queste estensioni sono tutte di formati di tipo tabellare. Nel contesto dei dati ci sono [altri formati](#altri-formati).
+
+## Che formati deve scegliere una Pubblica Amministrazione (PA)?
+
+Per la scelta deve essere guidata da questi elementi principali:
+
+- **Formato aperto**: il formato deve essere aperto, ovvero non deve essere proprietario di nessuna azienda, in modo da non imporre l'uso di un determinato software per poterlo leggere. O come dice la norma[^CAD] "*un formato di dati reso **pubblico**, **documentato esaustivamente** e **neutro** rispetto agli strumenti tecnologici necessari per la fruizione dei dati stessi*".
+- **Formato standard**: il formato deve essere standard e documentato, in modo che possa essere utilizzato da diversi software esistenti e/o anche da software da costruire all'uopo per leggere e analizzarne i contenuti.
+- **Formato leggibile meccanicamente**: il formato dati deve essere facilmente leggibile da un computer, ovvero deve essere *machine readable*. Una tabella all'interno di un PDF non è ad esempio leggibile automaticamente da un _software_ di analisi e quindi questo non è un buon formato.
+
+[^CAD]: [Decreto Legislativo 7 marzo 2005, n. 82](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig~art1) - Codice dell'Amministrazione Digitale
+
+
+Per la PA si fa riferimento a 2 documenti principali:
+
+- Il [Decreto Legislativo 24 gennaio 2006, n. 36](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig) - Attuazione della direttiva (UE) 2019/1024 relativa all'apertura dei dati e al riutilizzo dell'informazione del settore pubblico;
+- Le "[Linee Guida](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/index.html) recanti regole tecniche per l'attuazione del decreto legislativo 24 gennaio 2006, n. 36 e s.m.i. relativo all'apertura dei dati e al riutilizzo dell'informazione del settore pubblico" (le cosiddette "Linee Guida Open Data") (in particolare le sezioni "[Requisiti comuni](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/principi-generali/requisiti-comuni.html)" e "[Allegato A](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/allegato-a-modello-per-i-dati-aperti.html#)"").
+
+## Che formati scegliere per rendere pubblici gli esiti di un monitoraggio civico ambientale?
+
+Chi sviluppa progetti di monitoraggio civico ambientale spesso ha come obiettivo quello di rendere pubblici i dati raccolti, in modo che siano leggibili, analizzabili e riutilizzabili senza limitazioni da parte di chiunque.<br>
+Tutto questo è in linea con [quanto è tenuta a fare la PA](#che-formati-deve-scegliere-una-pubblica-amministrazione-pa), soprattutto in relazioni ai dati.
+
+E quindi per i dati si può scegliere un formato aperto, standard e leggibile meccanicamente, come [il `CSV`](forma.qmd#il-formato-csv), che è possibile creare in [questi modi](creare-csv.qmd).
+
+Per chi cura questa campagne ci può essere anche l'obiettivo di pubblicare queste stesse tabelle dati in formati leggibili da una fetta più ampia possibile di persone, con strumenti di uso più quotidiano. Per questo tipo di obiettivo si può affiancare al formato `CSV` anche i formati `XLSX` (Excel) e `ODS` (LibreOffice Calc) (o altri fogli elettronici) e il formato `PDF`.
+
+
+## Altri formati
+
+Ci sono tanti altri formati molto usati nel contesto dei dati ambientali, tabellari e non. Due molto diffusi - non tabellari - sono il `JSON` e l'`XML` (rappresentati sotto). <br>
+Questo è un *vademecum* introduttivo, in cui si farà riferimento soltanto a formati tabellari e in particolare al `CSV`.
+
+
+:::{.column-body-outset}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<h3>Esempio formato JSON</h3>
+
+```json
+[
+  {
+    "data": "2022-10-12",
+    "temperatura": 22.5,
+    "pressione": 1013
+  },
+  {
+    "data": "2022-10-19",
+    "temperatura": 22.3,
+    "pressione": 1018
+  },
+  {
+    "data": "2022-10-26",
+    "temperatura": 22.3,
+    "pressione": 1026
+  }
+]
+
+
+```
+:::
+
+::: {.column width="50%"}
+
+<h3>Esempio formato XML</h3>
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <row>
+    <data>2022-10-12</data>
+    <temperatura>22.5</temperatura>
+    <pressione>1013</pressione>
+  </row>
+  <row>
+    <data>2022-10-19</data>
+    <temperatura>22.3</temperatura>
+    <pressione>1018</pressione>
+  </row>
+  <row>
+    <data>2022-10-26</data>
+    <temperatura>22.3</temperatura>
+    <pressione>1026</pressione>
+  </row>
+</root>
+```
+:::
+
+::::
+
+:::
+
+

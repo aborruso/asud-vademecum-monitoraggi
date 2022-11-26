@@ -9,9 +9,16 @@ Fare in modo che sia così **richiede** un po' di **cura**, ma è semplice.
 Deve essere possibile rispondere a queste domande:
 
   - Come sono stati raccolti?
+  - A quale indirizzo web sono pubblicati?
   - Come sono stutturati? Sono tabelle?
   - Che tipo di dati ci sono nelle colonne delle tabelle?
-  - Chi ha creato i dati? Chi ne è responsabile?
   - In che formato sono pubblicati?
-  - A quale indirizzo web sono pubblicati?
   - Quali sono i termini d'uso? Come possono essere utilizzati?
+
+Per rispondere a queste domande, in questo *vademecum*, trovi delle sezioni dedicate alla:
+
+- [**descrizione** dei dati](descrivere.qmd);
+- [la scelta della **licenza**](licenza.qmd);
+- [la scelta del **formato**](formati.qmd);
+- [la **forma** da dare ai dati](forma.qmd);
+- [come **creare** i file in formato **CSV**](creare-csv.qmd);

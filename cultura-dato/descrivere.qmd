@@ -2,21 +2,49 @@
 title: "Descrivere i dati"
 ---
 
+## Introduzione
+
 Uno dei principi di base è quello di **descrivere** i **dati** raccolti, di associare ai dati i cosiddetti "**metadati**", per fare in modo di poter rispondere a domande come: "quando sono stati raccolti?", "con che strumenti?", "come è fatta la tabella in cui sono raccolti, cosà è presente in ogni colonna?", "dove sono posizionate le stazioni di campionamento?".
 
 Chi pubblica i dati e gli/le utenti che li utilizzano, non si conoscono fra loro, quindi, è essenziale fornire quelle informazioni che aiutino le persone e i *personal computer* a comprendere i dati.
 
-Si raccomanda quindi di associare ai dati delle informazioni descrittive di base, i cosìdetti **metadati**. A solo scopo esemplificativo:
+## Descrivere i dati
+
+Si raccomanda quindi di associare ai dati delle informazioni descrittive di base, i cosìdetti **metadati**. Un esempio potrebbere essere questo:
 
 |                                |                                                        |
 |--------------------------------|--------------------------------------------------------|
-| **Titolo**                     | Carico microbiologico dei corpi idrici fluviali, 2020  |
-| **URL**                        | https://sitoEsempio/dati/caricomicrobio.html           |
-| **Descrizione**                |                                                        |
-| **Data di pubblicazione**      | 2020-12-31                                             |
-| **Periodo di tempo coperto**   | L'anno solare 2020                                     |
-| **Frequenza di aggiornamento** | Annuale                                                |
+| **Titolo**                     | Pressione atmosferica e temperatura medie giornaliere  |
+| **URL**                        | https://sitoEsempio/dati/pressione-media-giornaliera.html           |
+| **Descrizione**                | Sono i dati raccolti dal sensore di tipo xxxx, usando il metodo yyyy                                                       |
+| **Data di pubblicazione**      | 2022-11-31                                             |
+| **Periodo di tempo coperto**   | Dal primo gennaio 2022                                     |
+| **Frequenza di aggiornamento** | Giornaliera                                                |
 | **Copertura spaziale**         | Città metropolitana di Roma Capitale                   |
 | **Tema**                       | Ambiente                                               |
+| **Licenza**                    | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)                                               |
 
-@knuth84
+Se si raccolgono e pubblicano tipi di dati diversi, ognuno dovrà avere la sua descrizione.
+
+## Descrivere le variabili raccolte
+
+La gran parte dei dati ambientali sono raccolti in [forma di tabella](forma.qmd) e divisi in righe (le osservazioni raccolte) e colonne (le variabili raccolte).
+
+È raccomandato descrivere le colonne, in modo le persone che accedano a questi dati possano capire cosa rappresentano i valori in esse contenuti.
+
+Se ad esempio la tabella dei dati fosse questa:
+
+|data      |temperatura|pressione|
+|----------|-----------:|---------:|
+|2022-10-12|22.5       |1013     |
+|2022-10-19|22.3       |1018     |
+|2022-10-26|22.3       |1026     |
+
+
+Si potrebbe associare ad essa una descrizione di questo tipo:
+
+| Nome colonna | Descrizione | Formato | Esempio |
+|--------------|-------------|---------|---------|
+| data         | Data di campionamento, in standard `ISO8601` | AAAA-MM-GG | 2022-10-12 |
+| temperatura  | Temperatura media giornaliera in gradi Celsius | Numero decimale | 22.5 |
+| pressione    | Pressione media giornaliera in millibar | Numero intero | 1013 |

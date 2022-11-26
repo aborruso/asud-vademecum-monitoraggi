@@ -1,0 +1,111 @@
+---
+title: "Come deve essere fatta una tabella di dati"
+#subtitle: "Come deve essere fatta una tabella di dati"
+---
+
+## Introduzione
+
+Una tabella di dati, per essere ben leggibile da persone ed elaborabile da *personal computer* e software, deve avere alcune caratteristiche legate a struttura, forma e contenuti.
+
+A seguire - dopo un'introduzione sul formato `CSV` - se ne elencano alcune, che consigliamo di seguire, legate al formato `CSV`, ma applicabili alla gran parte dei formati tabellare.
+
+## Il formato `CSV`
+
+Il formato `CSV`[^CSV] è un **formato file di testo**, per archiviare **dati tabellari**. È l'acronimo di **Comma Separated Values** (valori separati da virgola).<br>
+È un formato semplice, che può essere aperto con qualsiasi **programma di elaborazione testi**  (basta un "blocco note"), come ad esempio Notepad, Wordpad, Notepad++, Visual Studio Code, ecc..
+
+È bene che abbia una **riga di intestazione** che contenga il nome delle colonne/variabili, ed è necessario che ci sia un carattere che faccia da **separatore** di colonna. Il più comune è la virgola (`,`), ma può essere anche il punto e virgola (`;`), il tabulatore (`\t`), ecc..
+
+```{.txt #lst-esempio .sql lst-cap="Esempio di file CSV"}
+data,temperatura,pressione
+2022-10-12,22.5,1013
+2022-10-19,22.3,1018
+2022-10-26,22.3,1026
+```
+
+Ogni **riga** rapprresenta **un'osservazione**, ogni **colonna** rappresenta una **variabile**. Sopra - si veda riga di intestazione - la prima colonna rappresenta la data, la seconda la temperatura e la terza la pressione.
+
+::: {.callout-tip}
+
+## La codifica dei caratteri
+
+Un file CSV può contenere caratteri speciali, caratteri accentati, ecc.. È necessario pertanto definire ed indicare qual è il set di caratteri utilizzato, ovvero il cosidetto **_encoding_**. Quello consigliato è l'`UTF-8`.
+:::
+
+Per creare un file in formato `CSV`, si può leggere [questa sezione](creare-csv.qmd).
+
+[^CSV]: il documento formale di riferimento per descrivere un file CSV è il [`RFC 4180`](https://tools.ietf.org/html/rfc4180).
+
+## Raccomandazioni
+
+### Una sola riga di intestazione
+
+È consigliabile avere una sola riga di intestazione, che contenga il nome delle colonne/variabili.
+
+Non inserire ad esempio righe aggiuntive di natura descrittiva (come ad esempio "Campionamento del 3 dicembre 2022"), o di commento (come ad esempio "La temperatura è in gradi Celsius").
+
+### I nomi delle colonne
+
+Per i nomi delle colonne/campi, si consiglia di:
+- utilizzare nomi brevi, senza spazi e senza caratteri speciali (ad esempio `#`, `&`, ecc..);
+- non avere nomi duplicati;
+- evitare di usare abbreviazioni;
+- non includere accenti o segni di punteggiatura;
+- usare i trattini bassi `_` per separare le parole che compongono i nomi delle colonne invece degli spazi bianchi;
+- evitare l'uso di codici.
+
+### Non inserire righe o colonne con subtotali, totali o raggruppamenti
+
+Nessuna riga o colonna con totali o subtotali dovrebbe essere inclusa, mantenendo il massimo livello possibile di disaggregazione dei dati.
+
+È possibile pubblicare dati aggreati, in altri file a corredo di quelli originali.
+
+### Se per una colonna esistono dei valori standard, utilizzarli
+
+Se ad esempio in un colonna devo inserire dei codici che rappresentano una unità territoriale amministrativa (regioni, province, ecc.), si raccomanda di utilizzare la codifica standard per quel territorio. Per l'Italia ad esempio ci sono i [codici ISTAT](https://www.istat.it/it/metodi-e-strumenti/classificazioni).
+
+### Colonne numeriche
+
+I campi numerici devono essere codificati esclusivamente come tipi di dati numerici (interi o decimali); se si fa diversamente, alcune operazioni sui dati come l'ordinamento, il filtraggio (tutte le righe in cui i valori di una colonna sono superiori a una certa cifra), le opereazioni matematiche, possono non funzionare e/o produrre risultati inattesi.
+
+In generale:
+-  non si dovrebbero usare i separatori delle migliaia (quindi semplicemente `1230` e non `1.230`);
+-  il separatore dei decimali può essere una `,` o un `.`, a seconda della configurazione "locale" delle applicazioni di elaborazione dati e/o del sistema operativo; in Italia, Spagna, Francia o Germania, ad esempio, si usa la `,`, mentre nell'area anglosassone il `.`. L'uso dell'uno o dell'altro carattere, può comportare una pre elaborazione del dato, per quei linguaggi di programmazione o programmi in cui il separatore dei decimali è soltanto di un tipo;
+-  se una colonna contiene sia valori interi che decimali, il tipo di dati deve essere decimale e deve essere inserito il numero corretto di cifre decimali (che può dipendere dall'entità misurata, dalla strumentazione usata per raccogliere quei valori, ecc.);
+-  se una colonna contiene solo valori interi, essi devono essere espressi senza separatore decimale.
+
+### Colonne con date e orari
+
+Codificare le date utilizzando uno standard è fondamentale per facilitare l'analisi dei dati delle serie temporali.<br>
+Lo standard di riferimento è quello definito dalla norma ISO8601, che codifica i valori di data con il formato YYYYY-MM-DD (anno, mese e giorno, ad esempio `2022-11-26`), nella sua forma abbreviata, o YYYYY-MM-DDTHH:MM:SS (anno, mese, giorno, ora, minuti e secondi, ad esempio `2022-11-26T18:09:22`), nella sua versione estesa.
+
+### Colonne con coordinate geografiche
+
+Il formato più usato per rappresentare le coordinate geografiche sulle mappe è quello di latitudine e longitudine in gradi decimali, i cui valori dovrebbero essere presentati in colonne separate, con intestazioni di colonna da nominare: latitudine e longitudine, rispettivamente.
+
+
+
+::: {.callout-tip}
+
+## I gradi decimali
+
+Si ottengono in questo modo:
+
+\begin{gather*}
+Gradi + Minuti/60 + Secondi/3600 = GradiDecimali
+\end{gather*}
+
+Quindi se la latitudine è 38° 13' 28":
+
+\begin{gather*}
+38 + 13/60 + 28/3600 = 38.224444
+\end{gather*}
+
+:::
+
+### In generale
+
+- in una colonna raccogliere contenuti omogenei ("pere con pere e mele con mele");
+- non usare spazi inutili a inizio e fine cella o doppi spazi all'interno di una cella. Ad esempio `Duomo·di·Milano` e non `··Duomo·di·Milano·` (il carattere `·` rappresenta uno spazio bianco);
+- non mescolare valori numerici e unità di misura nella stessa colonna (`10` e non `10° C`). Indicare le unità di misura o in una colonna separata o in file che descrive i dati;
+- se non sono presenti valori per certe osservazioni (righe) e certe variabili (colonne), lasciare le celle vuote o indicarlo con una sigla standard (ad esempio `NA` per "not available"). In questo caso, documentarlo nel documento descrittivo.
