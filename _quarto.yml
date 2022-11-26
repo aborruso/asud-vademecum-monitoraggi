@@ -24,10 +24,6 @@ book:
         - cultura-dato/creare-csv.qmd
         - cultura-dato/accesso.qmd
         - cultura-dato/raccolta.qmd
-    - summary.qmd
-    - references.qmd
-
-bibliography: references.bib
 
 format:
   html:
