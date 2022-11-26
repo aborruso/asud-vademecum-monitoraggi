@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it" xml:lang="it"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.21">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Vademecum monitoraggio civico - 3&nbsp; Formati standard e “giusti”</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../cultura-dato/forma.html" rel="next">
+<link href="../cultura-dato/licenza.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Nessun risultato",
+    "search-matching-documents-text": "documenti trovati",
+    "search-copy-link-title": "Copiare il link nella ricerca",
+    "search-hide-matches-text": "Nascondere i risultati aggiuntivi",
+    "search-more-match-text": "ci sono altri risultati in questo documento",
+    "search-more-matches-text": "ulteriori risultati in questo documento",
+    "search-clear-button-title": "Pulire",
+    "search-detached-cancel-button-title": "Cancellare",
+    "search-submit-button-title": "Inviare"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Formati standard e “giusti”</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Vademecum monitoraggio civico</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../cultura-dato/come.html" class="sidebar-item-text sidebar-link">Come dovrebbero essere pubblicati i dati</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/descrivere.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Descrivere i dati</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/licenza.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Indicare una licenza</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/formati.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Formati standard e “giusti”</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/forma.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Come deve essere fatta una tabella di dati</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/scaricabili.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Renderli disponibili</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Strumenti</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/creare-csv.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Creare un file CSV</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/accesso.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Accedere alle informazioni ambientali</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/raccolta.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Raccogliere i dati</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Indice del contenuto</h2>
+   
+  <ul>
+  <li><a href="#introduzione" id="toc-introduzione" class="nav-link active" data-scroll-target="#introduzione"><span class="toc-section-number">3.1</span>  Introduzione</a></li>
+  <li><a href="#quali-formati-per-i-dati-ambientali" id="toc-quali-formati-per-i-dati-ambientali" class="nav-link" data-scroll-target="#quali-formati-per-i-dati-ambientali"><span class="toc-section-number">3.2</span>  Quali formati per i dati ambientali?</a></li>
+  <li><a href="#che-formati-deve-scegliere-una-pubblica-amministrazione-pa" id="toc-che-formati-deve-scegliere-una-pubblica-amministrazione-pa" class="nav-link" data-scroll-target="#che-formati-deve-scegliere-una-pubblica-amministrazione-pa"><span class="toc-section-number">3.3</span>  Che formati deve scegliere una Pubblica Amministrazione (PA)?</a></li>
+  <li><a href="#che-formati-scegliere-per-rendere-pubblici-gli-esiti-di-un-monitoraggio-civico-ambientale" id="toc-che-formati-scegliere-per-rendere-pubblici-gli-esiti-di-un-monitoraggio-civico-ambientale" class="nav-link" data-scroll-target="#che-formati-scegliere-per-rendere-pubblici-gli-esiti-di-un-monitoraggio-civico-ambientale"><span class="toc-section-number">3.4</span>  Che formati scegliere per rendere pubblici gli esiti di un monitoraggio civico ambientale?</a></li>
+  <li><a href="#altri-formati" id="toc-altri-formati" class="nav-link" data-scroll-target="#altri-formati"><span class="toc-section-number">3.5</span>  Altri formati</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Formati standard e “giusti”</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="introduzione" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="introduzione"><span class="header-section-number">3.1</span> Introduzione</h2>
+<p>Cosa è un formato? Indica il modo in cui un’immagine, un video, un documento di testo, una tabella, sono salvati in un <em>computer</em>.<br> In parole semplici il formato è quello di quando si dice “ti mando un file in word” o “ti mando un file in pdf”.<br> In realtà è un concetto più complesso.</p>
+<p>I formati dei file sono nel contesto dei dati, e in particolare in quello del monitoraggio civico ambientale, un tema importante. Si possono fare infatti scelte “bloccanti”, che impediscono pesantemente l’accesso alle informazioni pubblicate.</p>
+</section>
+<section id="quali-formati-per-i-dati-ambientali" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="quali-formati-per-i-dati-ambientali"><span class="header-section-number">3.2</span> Quali formati per i dati ambientali?</h2>
+<p>Il formato ha anche a che fare con la “<strong>forma</strong>” e per i dati ce ne sono diverse. Tra queste la più diffusa è quella <strong>tabellare</strong>, ovvero quella in cui i dati sono organizzati in <strong>righe</strong> e <strong>colonne</strong> (vedi paragrafo sulla “<a href="../cultura-dato/forma.html">forma</a>” di una tabella).<br> Non è l’unica possibile, ma è tra le più semplici e diffuse per archiviare e pubblicare dati raccolti da un sensore.</p>
+<p>Il formato di un file è riconoscibile (tra le altre cose) anche dalla sua <strong>estensione</strong>, ovvero la parte finale del suo nome, dopo il carattere <code>.</code> (il punto).<br> Ad esempio, in un file in formato Excel, denominato <code>2022-11-24_tevere.xls</code>, l’estensione è <code>xls</code>.</p>
+<p>Il formato di archiviazione di un’analisi ambientale non si può scegliere sempre, a volte è lo strumento di monitoraggio - il sensore - che ne impone uno.<br> Se i dati raccolti si vogliono <strong>rendere pubblici</strong> e <strong>utilizzabili</strong> da altre persone, bisogna scegliere un formato che sia <strong>aperto</strong>, <strong>standardizzato</strong> e <strong>facilmente leggibile</strong> da un computer (<em>machine readable</em>).</p>
+<p>Tra le estensioni e i formati tabellari più diffusi:</p>
+<ul>
+<li><code>.xlsx</code> (Excel 2007+)</li>
+<li><code>.ods</code> (OpenOffice calc)</li>
+<li><code>.csv</code> (Comma Separated Values)</li>
+<li><code>.tsv</code> (Tab Separated Values)</li>
+</ul>
+<p>Queste estensioni sono tutte di formati di tipo tabellare. Nel contesto dei dati ci sono <a href="#altri-formati">altri formati</a>.</p>
+</section>
+<section id="che-formati-deve-scegliere-una-pubblica-amministrazione-pa" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="che-formati-deve-scegliere-una-pubblica-amministrazione-pa"><span class="header-section-number">3.3</span> Che formati deve scegliere una Pubblica Amministrazione (PA)?</h2>
+<p>Per la scelta deve essere guidata da questi elementi principali:</p>
+<ul>
+<li><strong>Formato aperto</strong>: il formato deve essere aperto, ovvero non deve essere proprietario di nessuna azienda, in modo da non imporre l’uso di un determinato software per poterlo leggere. O come dice la norma<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> “<em>un formato di dati reso <strong>pubblico</strong>, <strong>documentato esaustivamente</strong> e <strong>neutro</strong> rispetto agli strumenti tecnologici necessari per la fruizione dei dati stessi</em>”.</li>
+<li><strong>Formato standard</strong>: il formato deve essere standard e documentato, in modo che possa essere utilizzato da diversi software esistenti e/o anche da software da costruire all’uopo per leggere e analizzarne i contenuti.</li>
+<li><strong>Formato leggibile meccanicamente</strong>: il formato dati deve essere facilmente leggibile da un computer, ovvero deve essere <em>machine readable</em>. Una tabella all’interno di un PDF non è ad esempio leggibile automaticamente da un <em>software</em> di analisi e quindi questo non è un buon formato.</li>
+</ul>
+<p>Per la PA si fa riferimento a 2 documenti principali:</p>
+<ul>
+<li>Il <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig">Decreto Legislativo 24 gennaio 2006, n.&nbsp;36</a> - Attuazione della direttiva (UE) 2019/1024 relativa all’apertura dei dati e al riutilizzo dell’informazione del settore pubblico;</li>
+<li>Le “<a href="https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/index.html">Linee Guida</a> recanti regole tecniche per l’attuazione del decreto legislativo 24 gennaio 2006, n.&nbsp;36 e s.m.i. relativo all’apertura dei dati e al riutilizzo dell’informazione del settore pubblico” (le cosiddette “Linee Guida Open Data”) (in particolare le sezioni “<a href="https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/principi-generali/requisiti-comuni.html">Requisiti comuni</a>” e “<a href="https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/allegato-a-modello-per-i-dati-aperti.html#">Allegato A</a>”“).</li>
+</ul>
+</section>
+<section id="che-formati-scegliere-per-rendere-pubblici-gli-esiti-di-un-monitoraggio-civico-ambientale" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="che-formati-scegliere-per-rendere-pubblici-gli-esiti-di-un-monitoraggio-civico-ambientale"><span class="header-section-number">3.4</span> Che formati scegliere per rendere pubblici gli esiti di un monitoraggio civico ambientale?</h2>
+<p>Chi sviluppa progetti di monitoraggio civico ambientale spesso ha come obiettivo quello di rendere pubblici i dati raccolti, in modo che siano leggibili, analizzabili e riutilizzabili senza limitazioni da parte di chiunque.<br> Tutto questo è in linea con <a href="#che-formati-deve-scegliere-una-pubblica-amministrazione-pa">quanto è tenuta a fare la PA</a>, soprattutto in relazioni ai dati.</p>
+<p>E quindi per i dati si può scegliere un formato aperto, standard e leggibile meccanicamente, come <a href="../cultura-dato/forma.html#il-formato-csv">il <code>CSV</code></a>, che è possibile creare in <a href="../cultura-dato/creare-csv.html">questi modi</a>.</p>
+<p>Per chi cura questa campagne ci può essere anche l’obiettivo di pubblicare queste stesse tabelle dati in formati leggibili da una fetta più ampia possibile di persone, con strumenti di uso più quotidiano. Per questo tipo di obiettivo si può affiancare al formato <code>CSV</code> anche i formati <code>XLSX</code> (Excel) e <code>ODS</code> (LibreOffice Calc) (o altri fogli elettronici) e il formato <code>PDF</code>.</p>
+</section>
+<section id="altri-formati" class="level2 page-columns page-full" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="altri-formati"><span class="header-section-number">3.5</span> Altri formati</h2>
+<p>Ci sono tanti altri formati molto usati nel contesto dei dati ambientali, tabellari e non. Due molto diffusi - non tabellari - sono il <code>JSON</code> e l’<code>XML</code> (rappresentati sotto). <br> Questo è un <em>vademecum</em> introduttivo, in cui si farà riferimento soltanto a formati tabellari e in particolare al <code>CSV</code>.</p>
+<div class="column-body-outset">
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 class="anchored">
+Esempio formato JSON
+</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ot">[</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">{</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"data"</span><span class="fu">:</span> <span class="st">"2022-10-12"</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"temperatura"</span><span class="fu">:</span> <span class="fl">22.5</span><span class="fu">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"pressione"</span><span class="fu">:</span> <span class="dv">1013</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">{</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"data"</span><span class="fu">:</span> <span class="st">"2022-10-19"</span><span class="fu">,</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"temperatura"</span><span class="fu">:</span> <span class="fl">22.3</span><span class="fu">,</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"pressione"</span><span class="fu">:</span> <span class="dv">1018</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">{</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"data"</span><span class="fu">:</span> <span class="st">"2022-10-26"</span><span class="fu">,</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"temperatura"</span><span class="fu">:</span> <span class="fl">22.3</span><span class="fu">,</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="dt">"pressione"</span><span class="fu">:</span> <span class="dv">1026</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ot">]</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<h3 class="anchored">
+Esempio formato XML
+</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">&lt;?xml</span><span class="ot"> version=</span><span class="st">"1.0"</span><span class="ot"> encoding=</span><span class="st">"UTF-8"</span> <span class="fu">?&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">root</span>&gt;</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">row</span>&gt;</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">data</span>&gt;2022-10-12&lt;/<span class="kw">data</span>&gt;</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">temperatura</span>&gt;22.5&lt;/<span class="kw">temperatura</span>&gt;</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">pressione</span>&gt;1013&lt;/<span class="kw">pressione</span>&gt;</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">row</span>&gt;</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">row</span>&gt;</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">data</span>&gt;2022-10-19&lt;/<span class="kw">data</span>&gt;</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">temperatura</span>&gt;22.3&lt;/<span class="kw">temperatura</span>&gt;</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">pressione</span>&gt;1018&lt;/<span class="kw">pressione</span>&gt;</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">row</span>&gt;</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">row</span>&gt;</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">data</span>&gt;2022-10-26&lt;/<span class="kw">data</span>&gt;</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">temperatura</span>&gt;22.3&lt;/<span class="kw">temperatura</span>&gt;</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">pressione</span>&gt;1026&lt;/<span class="kw">pressione</span>&gt;</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">row</span>&gt;</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">root</span>&gt;</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+
+
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p><a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig~art1">Decreto Legislativo 7 marzo 2005, n.&nbsp;82</a> - Codice dell’Amministrazione Digitale<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiato!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiato!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../cultura-dato/licenza.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Indicare una licenza</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../cultura-dato/forma.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Come deve essere fatta una tabella di dati</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

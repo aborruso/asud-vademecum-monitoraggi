@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it" xml:lang="it"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.21">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Vademecum monitoraggio civico - 4&nbsp; Come deve essere fatta una tabella di dati</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../cultura-dato/scaricabili.html" rel="next">
+<link href="../cultura-dato/formati.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Nessun risultato",
+    "search-matching-documents-text": "documenti trovati",
+    "search-copy-link-title": "Copiare il link nella ricerca",
+    "search-hide-matches-text": "Nascondere i risultati aggiuntivi",
+    "search-more-match-text": "ci sono altri risultati in questo documento",
+    "search-more-matches-text": "ulteriori risultati in questo documento",
+    "search-clear-button-title": "Pulire",
+    "search-detached-cancel-button-title": "Cancellare",
+    "search-submit-button-title": "Inviare"
+  }
+}</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Come deve essere fatta una tabella di dati</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Vademecum monitoraggio civico</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../cultura-dato/come.html" class="sidebar-item-text sidebar-link">Come dovrebbero essere pubblicati i dati</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/descrivere.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Descrivere i dati</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/licenza.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Indicare una licenza</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/formati.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Formati standard e “giusti”</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/forma.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Come deve essere fatta una tabella di dati</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/scaricabili.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Renderli disponibili</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Strumenti</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/creare-csv.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Creare un file CSV</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/accesso.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Accedere alle informazioni ambientali</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cultura-dato/raccolta.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Raccogliere i dati</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Summary</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Indice del contenuto</h2>
+   
+  <ul>
+  <li><a href="#introduzione" id="toc-introduzione" class="nav-link active" data-scroll-target="#introduzione"><span class="toc-section-number">4.1</span>  Introduzione</a></li>
+  <li><a href="#il-formato-csv" id="toc-il-formato-csv" class="nav-link" data-scroll-target="#il-formato-csv"><span class="toc-section-number">4.2</span>  Il formato <code>CSV</code></a></li>
+  <li><a href="#raccomandazioni" id="toc-raccomandazioni" class="nav-link" data-scroll-target="#raccomandazioni"><span class="toc-section-number">4.3</span>  Raccomandazioni</a>
+  <ul>
+  <li><a href="#una-sola-riga-di-intestazione" id="toc-una-sola-riga-di-intestazione" class="nav-link" data-scroll-target="#una-sola-riga-di-intestazione"><span class="toc-section-number">4.3.1</span>  Una sola riga di intestazione</a></li>
+  <li><a href="#i-nomi-delle-colonne" id="toc-i-nomi-delle-colonne" class="nav-link" data-scroll-target="#i-nomi-delle-colonne"><span class="toc-section-number">4.3.2</span>  I nomi delle colonne</a></li>
+  <li><a href="#non-inserire-righe-o-colonne-con-subtotali-totali-o-raggruppamenti" id="toc-non-inserire-righe-o-colonne-con-subtotali-totali-o-raggruppamenti" class="nav-link" data-scroll-target="#non-inserire-righe-o-colonne-con-subtotali-totali-o-raggruppamenti"><span class="toc-section-number">4.3.3</span>  Non inserire righe o colonne con subtotali, totali o raggruppamenti</a></li>
+  <li><a href="#se-per-una-colonna-esistono-dei-valori-standard-utilizzarli" id="toc-se-per-una-colonna-esistono-dei-valori-standard-utilizzarli" class="nav-link" data-scroll-target="#se-per-una-colonna-esistono-dei-valori-standard-utilizzarli"><span class="toc-section-number">4.3.4</span>  Se per una colonna esistono dei valori standard, utilizzarli</a></li>
+  <li><a href="#colonne-numeriche" id="toc-colonne-numeriche" class="nav-link" data-scroll-target="#colonne-numeriche"><span class="toc-section-number">4.3.5</span>  Colonne numeriche</a></li>
+  <li><a href="#colonne-con-date-e-orari" id="toc-colonne-con-date-e-orari" class="nav-link" data-scroll-target="#colonne-con-date-e-orari"><span class="toc-section-number">4.3.6</span>  Colonne con date e orari</a></li>
+  <li><a href="#colonne-con-coordinate-geografiche" id="toc-colonne-con-coordinate-geografiche" class="nav-link" data-scroll-target="#colonne-con-coordinate-geografiche"><span class="toc-section-number">4.3.7</span>  Colonne con coordinate geografiche</a></li>
+  <li><a href="#in-generale" id="toc-in-generale" class="nav-link" data-scroll-target="#in-generale"><span class="toc-section-number">4.3.8</span>  In generale</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Come deve essere fatta una tabella di dati</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="introduzione" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="introduzione"><span class="header-section-number">4.1</span> Introduzione</h2>
+<p>Una tabella di dati, per essere ben leggibile da persone ed elaborabile da <em>personal computer</em> e software, deve avere alcune caratteristiche legate a struttura, forma e contenuti.</p>
+<p>A seguire - dopo un’introduzione sul formato <code>CSV</code> - se ne elencano alcune, che consigliamo di seguire, legate al formato <code>CSV</code>, ma applicabili alla gran parte dei formati tabellare.</p>
+</section>
+<section id="il-formato-csv" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="il-formato-csv"><span class="header-section-number">4.2</span> Il formato <code>CSV</code></h2>
+<p>Il formato <code>CSV</code><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> è un <strong>formato file di testo</strong>, per archiviare <strong>dati tabellari</strong>. È l’acronimo di <strong>Comma Separated Values</strong> (valori separati da virgola).<br> È un formato semplice, che può essere aperto con qualsiasi <strong>programma di elaborazione testi</strong> (basta un “blocco note”), come ad esempio Notepad, Wordpad, Notepad++, Visual Studio Code, ecc..</p>
+<p>È bene che abbia una <strong>riga di intestazione</strong> che contenga il nome delle colonne/variabili, ed è necessario che ci sia un carattere che faccia da <strong>separatore</strong> di colonna. Il più comune è la virgola (<code>,</code>), ma può essere anche il punto e virgola (<code>;</code>), il tabulatore (<code>\t</code>), ecc..</p>
+<div id="lst-esempio" class="listing">
+<p>Lista&nbsp;4.1: Esempio di file CSV</p>
+<div class="sourceCode" id="lst-esempio" data-lst-cap="Esempio di file CSV"><pre class="sourceCode txt sql code-with-copy"><code class="sourceCode default"><span id="lst-esempio-1"><a href="#lst-esempio-1" aria-hidden="true" tabindex="-1"></a>data,temperatura,pressione</span>
+<span id="lst-esempio-2"><a href="#lst-esempio-2" aria-hidden="true" tabindex="-1"></a>2022-10-12,22.5,1013</span>
+<span id="lst-esempio-3"><a href="#lst-esempio-3" aria-hidden="true" tabindex="-1"></a>2022-10-19,22.3,1018</span>
+<span id="lst-esempio-4"><a href="#lst-esempio-4" aria-hidden="true" tabindex="-1"></a>2022-10-26,22.3,1026</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Ogni <strong>riga</strong> rapprresenta <strong>un’osservazione</strong>, ogni <strong>colonna</strong> rappresenta una <strong>variabile</strong>. Sopra - si veda riga di intestazione - la prima colonna rappresenta la data, la seconda la temperatura e la terza la pressione.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+La codifica dei caratteri
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Un file CSV può contenere caratteri speciali, caratteri accentati, ecc.. È necessario pertanto definire ed indicare qual è il set di caratteri utilizzato, ovvero il cosidetto <strong><em>encoding</em></strong>. Quello consigliato è l’<code>UTF-8</code>.</p>
+</div>
+</div>
+<p>Per creare un file in formato <code>CSV</code>, si può leggere <a href="../cultura-dato/creare-csv.html">questa sezione</a>.</p>
+</section>
+<section id="raccomandazioni" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="raccomandazioni"><span class="header-section-number">4.3</span> Raccomandazioni</h2>
+<section id="una-sola-riga-di-intestazione" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="una-sola-riga-di-intestazione"><span class="header-section-number">4.3.1</span> Una sola riga di intestazione</h3>
+<p>È consigliabile avere una sola riga di intestazione, che contenga il nome delle colonne/variabili.</p>
+<p>Non inserire ad esempio righe aggiuntive di natura descrittiva (come ad esempio “Campionamento del 3 dicembre 2022”), o di commento (come ad esempio “La temperatura è in gradi Celsius”).</p>
+</section>
+<section id="i-nomi-delle-colonne" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="i-nomi-delle-colonne"><span class="header-section-number">4.3.2</span> I nomi delle colonne</h3>
+<p>Per i nomi delle colonne/campi, si consiglia di: - utilizzare nomi brevi, senza spazi e senza caratteri speciali (ad esempio <code>#</code>, <code>&amp;</code>, ecc..); - non avere nomi duplicati; - evitare di usare abbreviazioni; - non includere accenti o segni di punteggiatura; - usare i trattini bassi <code>_</code> per separare le parole che compongono i nomi delle colonne invece degli spazi bianchi; - evitare l’uso di codici.</p>
+</section>
+<section id="non-inserire-righe-o-colonne-con-subtotali-totali-o-raggruppamenti" class="level3" data-number="4.3.3">
+<h3 data-number="4.3.3" class="anchored" data-anchor-id="non-inserire-righe-o-colonne-con-subtotali-totali-o-raggruppamenti"><span class="header-section-number">4.3.3</span> Non inserire righe o colonne con subtotali, totali o raggruppamenti</h3>
+<p>Nessuna riga o colonna con totali o subtotali dovrebbe essere inclusa, mantenendo il massimo livello possibile di disaggregazione dei dati.</p>
+<p>È possibile pubblicare dati aggreati, in altri file a corredo di quelli originali.</p>
+</section>
+<section id="se-per-una-colonna-esistono-dei-valori-standard-utilizzarli" class="level3" data-number="4.3.4">
+<h3 data-number="4.3.4" class="anchored" data-anchor-id="se-per-una-colonna-esistono-dei-valori-standard-utilizzarli"><span class="header-section-number">4.3.4</span> Se per una colonna esistono dei valori standard, utilizzarli</h3>
+<p>Se ad esempio in un colonna devo inserire dei codici che rappresentano una unità territoriale amministrativa (regioni, province, ecc.), si raccomanda di utilizzare la codifica standard per quel territorio. Per l’Italia ad esempio ci sono i <a href="https://www.istat.it/it/metodi-e-strumenti/classificazioni">codici ISTAT</a>.</p>
+</section>
+<section id="colonne-numeriche" class="level3" data-number="4.3.5">
+<h3 data-number="4.3.5" class="anchored" data-anchor-id="colonne-numeriche"><span class="header-section-number">4.3.5</span> Colonne numeriche</h3>
+<p>I campi numerici devono essere codificati esclusivamente come tipi di dati numerici (interi o decimali); se si fa diversamente, alcune operazioni sui dati come l’ordinamento, il filtraggio (tutte le righe in cui i valori di una colonna sono superiori a una certa cifra), le opereazioni matematiche, possono non funzionare e/o produrre risultati inattesi.</p>
+<p>In generale: - non si dovrebbero usare i separatori delle migliaia (quindi semplicemente <code>1230</code> e non <code>1.230</code>); - il separatore dei decimali può essere una <code>,</code> o un <code>.</code>, a seconda della configurazione “locale” delle applicazioni di elaborazione dati e/o del sistema operativo; in Italia, Spagna, Francia o Germania, ad esempio, si usa la <code>,</code>, mentre nell’area anglosassone il <code>.</code>. L’uso dell’uno o dell’altro carattere, può comportare una pre elaborazione del dato, per quei linguaggi di programmazione o programmi in cui il separatore dei decimali è soltanto di un tipo; - se una colonna contiene sia valori interi che decimali, il tipo di dati deve essere decimale e deve essere inserito il numero corretto di cifre decimali (che può dipendere dall’entità misurata, dalla strumentazione usata per raccogliere quei valori, ecc.); - se una colonna contiene solo valori interi, essi devono essere espressi senza separatore decimale.</p>
+</section>
+<section id="colonne-con-date-e-orari" class="level3" data-number="4.3.6">
+<h3 data-number="4.3.6" class="anchored" data-anchor-id="colonne-con-date-e-orari"><span class="header-section-number">4.3.6</span> Colonne con date e orari</h3>
+<p>Codificare le date utilizzando uno standard è fondamentale per facilitare l’analisi dei dati delle serie temporali.<br> Lo standard di riferimento è quello definito dalla norma ISO8601, che codifica i valori di data con il formato YYYYY-MM-DD (anno, mese e giorno, ad esempio <code>2022-11-26</code>), nella sua forma abbreviata, o YYYYY-MM-DDTHH:MM:SS (anno, mese, giorno, ora, minuti e secondi, ad esempio <code>2022-11-26T18:09:22</code>), nella sua versione estesa.</p>
+</section>
+<section id="colonne-con-coordinate-geografiche" class="level3" data-number="4.3.7">
+<h3 data-number="4.3.7" class="anchored" data-anchor-id="colonne-con-coordinate-geografiche"><span class="header-section-number">4.3.7</span> Colonne con coordinate geografiche</h3>
+<p>Il formato più usato per rappresentare le coordinate geografiche sulle mappe è quello di latitudine e longitudine in gradi decimali, i cui valori dovrebbero essere presentati in colonne separate, con intestazioni di colonna da nominare: latitudine e longitudine, rispettivamente.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+I gradi decimali
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Si ottengono in questo modo:</p>
+<p><span class="math display">\[\begin{gather*}
+Gradi + Minuti/60 + Secondi/3600 = GradiDecimali
+\end{gather*}\]</span></p>
+<p>Quindi se la latitudine è 38° 13’ 28”:</p>
+<p><span class="math display">\[\begin{gather*}
+38 + 13/60 + 28/3600 = 38.224444
+\end{gather*}\]</span></p>
+</div>
+</div>
+</section>
+<section id="in-generale" class="level3" data-number="4.3.8">
+<h3 data-number="4.3.8" class="anchored" data-anchor-id="in-generale"><span class="header-section-number">4.3.8</span> In generale</h3>
+<ul>
+<li>in una colonna raccogliere contenuti omogenei (“pere con pere e mele con mele”);</li>
+<li>non usare spazi inutili a inizio e fine cella o doppi spazi all’interno di una cella. Ad esempio <code>Duomo·di·Milano</code> e non <code>··Duomo·di·Milano·</code> (il carattere <code>·</code> rappresenta uno spazio bianco);</li>
+<li>non mescolare valori numerici e unità di misura nella stessa colonna (<code>10</code> e non <code>10° C</code>). Indicare le unità di misura o in una colonna separata o in file che descrive i dati;</li>
+<li>se non sono presenti valori per certe osservazioni (righe) e certe variabili (colonne), lasciare le celle vuote o indicarlo con una sigla standard (ad esempio <code>NA</code> per “not available”). In questo caso, documentarlo nel documento descrittivo.</li>
+</ul>
+
+
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>il documento formale di riferimento per descrivere un file CSV è il <a href="https://tools.ietf.org/html/rfc4180"><code>RFC 4180</code></a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiato!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiato!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../cultura-dato/formati.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Formati standard e “giusti”</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../cultura-dato/scaricabili.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Renderli disponibili</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
