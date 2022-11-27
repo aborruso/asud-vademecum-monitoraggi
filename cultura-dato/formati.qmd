@@ -62,8 +62,6 @@ Ci sono tanti altri formati molto usati nel contesto dei dati ambientali, tabell
 Questo è un *vademecum* introduttivo, in cui si farà riferimento soltanto a formati tabellari e in particolare al `CSV`.
 
 
-:::{.column-body-outset}
-
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -120,7 +118,3 @@ Questo è un *vademecum* introduttivo, in cui si farà riferimento soltanto a fo
 :::
 
 ::::
-
-:::
-
-
