@@ -7,8 +7,6 @@ project:
 
 book:
   title: "Titolo"
-  author: "ASud"
-  date: "22/11/2022"
   page-navigation: true
 
   sidebar:
