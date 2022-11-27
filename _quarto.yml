@@ -6,10 +6,23 @@ project:
     - "!LICENSE.md"
 
 book:
-  title: "Vademecum monitoraggio civico"
+  title: "Titolo"
   author: "ASud"
   date: "22/11/2022"
   page-navigation: true
+
+  sidebar:
+    style: docked
+    background: light
+    search: true
+
+  navbar:
+    background: primary
+    search: false
+    left:
+      - text: "Home"
+        file: index.qmd
+
   chapters:
     - index.qmd
     - part: cultura-dato/come.qmd
@@ -24,6 +37,12 @@ book:
         - cultura-dato/creare-csv.qmd
         - cultura-dato/accesso.qmd
         - cultura-dato/raccolta.qmd
+
+  page-footer:
+    left: |
+      Un progetto di [ASud](https://asud.it)
+    right: |
+      Lorem ipsum
 
 format:
   html:

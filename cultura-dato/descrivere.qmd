@@ -28,9 +28,9 @@ Se si raccolgono e pubblicano tipi di dati diversi, ognuno dovrà avere la sua d
 
 ## Descrivere le variabili raccolte
 
-La gran parte dei dati ambientali sono raccolti in [forma di tabella](forma.qmd) e divisi in righe (le osservazioni raccolte) e colonne (le variabili raccolte).
+La gran parte dei dati ambientali sono raccolti in [forma di tabella](forma.qmd) e divisi in **righe** (le osservazioni raccolte) e **colonne** (le variabili raccolte).
 
-È raccomandato descrivere le colonne, in modo le persone che accedano a questi dati possano capire cosa rappresentano i valori in esse contenuti.
+È raccomandato descrivere le colonne, in modo le persone che consulteranno i dati, possano capire cosa rappresentano i valori in esse contenuti.
 
 Se ad esempio la tabella dei dati fosse questa:
 
