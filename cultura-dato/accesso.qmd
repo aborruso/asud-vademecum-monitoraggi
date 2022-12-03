@@ -1,10 +1,10 @@
 ---
-title: "Accedere alle informazioni ambientali"
+title: "Accedere alle informazioni"
 ---
 
 ## Introduzione
 
-La Pubblica Amministrazione ha degli **obblighi** di **pubblicità**, **trasparenza** e **diffusione** di **informazioni**.<br>
+Le Pubbliche Amministrazioni hanno degli **obblighi** di **pubblicità**, **trasparenza** e **diffusione** di **informazioni**.<br>
 La norma di riferimento è il [Decreto Legislativo numero 33 del 14 marzo 2013](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33!vig), denominato "*Riordino della disciplina riguardante il diritto di accesso civico e gli obblighi di pubblicità, trasparenza e diffusione di informazioni da parte delle pubbliche amministrazioni*".
 
 ::: {.callout-tip}
@@ -89,7 +89,7 @@ In caso di diniego parziale o totale, ovvero di mancata risposta entro il termin
 Se l'accesso alle informazioni è stato negato o differito a tutela degli interessi relativi alla protezione dei dati personali, il suddetto responsabile sente il Garante per la protezione dei dati personali, il quale si dovrà pronunciare entro il termine di dieci giorni dalla richiesta.
 
 Nel caso di ulteriore decisione avversa da parte del Responsabile della trasparenza, è possibile procedere tramite un ricorso, presentato a Tribubale Amministrativo Regionale (TAR), ai ai sensi dell'articolo 116 del Codice del processo amministrativo di cui al decreto legislativo 2 luglio 2010, n. 104.<br>
-Qualora si tratti di atti delle amministrazioni delle regioni o degli enti locali, il richiedente può altresì presentare ricorso al difensore civico competente per ambito territoriale, ove costituito. Qualora tale organo non sia stato istituito, la competenza è attribuita al difensore civico competente per l'ambito territoriale immediatamente superiore.
+Qualora si tratti di atti delle amministrazioni delle regioni o degli enti locali, il/la richiedente può altresì presentare ricorso al difensore civico competente per ambito territoriale, ove costituito. Qualora tale organo non sia stato istituito, la competenza è attribuita al difensore civico competente per l'ambito territoriale immediatamente superiore.
 
 ---
 
