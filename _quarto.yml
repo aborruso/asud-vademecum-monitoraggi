@@ -6,13 +6,14 @@ project:
     - "!LICENSE.md"
 
 book:
-  title: "Titolo"
+  title: "Vademecum monitoraggio ambientale"
   page-navigation: true
 
   sidebar:
     style: docked
     background: light
     search: true
+    collapse-level: 1
 
   navbar:
     background: primary
@@ -23,6 +24,31 @@ book:
 
   chapters:
     - index.qmd
+    - text: "Le politiche pubbliche"
+      file: politiche-pubbliche/index.qmd
+    - part: "Monitoraggi ambientali partecipati"
+      chapters:
+        - file: monitoraggi-ambientali-partecipati/index.qmd
+          text: "Introduzione"
+        - file: monitoraggi-ambientali-partecipati/quali-bisogni.qmd
+          text: "Quali bisogni?"
+        - file: monitoraggi-ambientali-partecipati/tevere-aniene.qmd
+          text: "Tevere e Aniene"
+    - part: raccolta-campione/index.qmd
+      chapters:
+        - file: raccolta-campione/torbidita.qmd
+        - file: raccolta-campione/ph.qmd
+        - file: raccolta-campione/conducibilita.qmd
+        - file: raccolta-campione/nitrati.qmd
+        - file: raccolta-campione/fosfati.qmd
+        - file: raccolta-campione/escherichia-coli.qmd
+        - file: raccolta-campione/ammoniaca.qmd
+    - part: monitoraggi-ambientali-estremi/index.qmd
+      chapters:
+        - file: monitoraggi-ambientali-estremi/basilicata.qmd
+          text: "Basilicata"
+        - file: monitoraggi-ambientali-estremi/fukushima.qmd
+          text: "Fukushima"
     - part: cultura-dato/come.qmd
       chapters:
         - cultura-dato/descrivere.qmd
@@ -47,3 +73,4 @@ format:
     theme: cosmo
     lang: it
     toc-depth: 4
+    number-sections: false
