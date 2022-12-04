@@ -89,6 +89,12 @@ Se l'accesso alle informazioni è stato negato o differito a tutela degli intere
 Nel caso di ulteriore decisione avversa da parte del Responsabile della trasparenza, è possibile procedere tramite un ricorso, presentato a Tribubale Amministrativo Regionale (TAR), ai ai sensi dell'articolo 116 del Codice del processo amministrativo di cui al decreto legislativo 2 luglio 2010, n. 104.<br>
 Qualora si tratti di atti delle amministrazioni delle regioni o degli enti locali, il/la richiedente può altresì presentare ricorso al difensore civico competente per ambito territoriale, ove costituito. Qualora tale organo non sia stato istituito, la competenza è attribuita al difensore civico competente per l'ambito territoriale immediatamente superiore.
 
+## Riferimenti utili
+
+- Una [raccolta di risposte utili](https://foia.gov.it/domande-e-risposte) a dubbi e domande su procedure, normativa e applicazione del FOIA, a cura del Dipartimento della funzione pubblica.
+- Le [FAQ sul FOIA](https://www.funzionepubblica.gov.it/faq-del-foia), a cura del Ministro per la Pubblica Amministrazione.
+- [**FOIAPop**](http://www.foiapop.it/), un strumento che aiuta le persone a creare richieste di accesso civico semplice e generalizzato.
+
 ---
 
 ::: {.callout-note}
