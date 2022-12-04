@@ -32,7 +32,7 @@ L'"**Accesso civico semplice**", diversamente dall'Accesso documentale, è un di
 Il decreto infatti fissa l'elenco dei documenti che le PA devono pubblicare in una sezione del loro sito internet, denominata "Amministrazione Trasparente".<br>
 In riferiento a questo afferma che «chiunque ha **diritto** di **richiedere documenti**, **dati** o **informazioni** che le **amministrazioni hanno l'obbligo di pubblicare nella sezione "Amministrazione trasparente"** dei propri siti istituzionali, nei casi in cui gli stessi non siano stati pubblicati».
 
-I documenti che le PA devono pubblicare sono quelli compresi nel Capo II e Capo III del d.lgs. 33/2013 (articoli da 12 a 42). Il 40 è intitolato "[**Pubblicazione e accesso alle informazioni ambientali**](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33!vig~art40)" e prevede che le amministrazioni pubblichino sui propri siti istituzionali le informazioni ambientali di cui all'articolo 2, comma 1, lettera a), del [decreto legislativo 19 agosto 2005, n. 195](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-08-19;195~art2-com1-leta).
+Un elenco importante di documenti, dati e informazioni che le PA devono pubblicare sono quelli compresi nel Capo II e Capo III del d.lgs. 33/2013 (articoli da 12 a 42). Il 40 è intitolato "[**Pubblicazione e accesso alle informazioni ambientali**](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33!vig~art40)" e prevede che le amministrazioni pubblichino sui propri siti istituzionali le informazioni ambientali di cui all'articolo 2, comma 1, lettera a), del [decreto legislativo 19 agosto 2005, n. 195](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-08-19;195~art2-com1-leta).
 
 ### Accesso civico generalizzato
 
@@ -43,7 +43,7 @@ All'articolo 5, comma 2 recita:
 > Allo scopo di favorire forme diffuse di controllo…e di promuovere la partecipazione al dibattito pubblico, chiunque ha diritto di accedere ai dati e ai documenti detenuti dalle pubbliche amministrazioni ulteriori rispetto a quelli oggetto di pubblicazione…
 
 Si devono **identificare** i **dati**, le **informazioni** o i **documenti desiderati**,**senza che sia necessario definire una motivazione**.<br>
-Questo diritto di accesso è il cosiddetto **FOIA** (Freedom of Information Act), che ha alcune eccezioni dettagliate nell'[articolo 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-05-25;97!vig~art6).<br>
+Questo diritto di accesso è il cosiddetto **FOIA** (Freedom of Information Act), che ha alcune eccezioni dettagliate nell'[articolo 5-bis](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33!vig~art5bis) del dl n. 33 del 2013 e nell'[articolo 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-05-25;97!vig~art6) del dl n. 97 del 2016.<br>
 Queste eccezioni però sono nella gran parte dei casi non correlabili ai dati ambienatli (segreto di stato, privacy delle persone, questioni militari, stabilità finanziaria, ecc.).
 
 A proposito di possibili **limitazioni** nelle richieste di accesso generalizzato, è bene fare riferimento alle [**Linee Guida 1309/216**](https://www.anticorruzione.it/portal/rest/jcr/repository/collaboration/Digital%20Assets/anacdocs/Attivita/Atti/determinazioni/2016/1309/del.1309.2016.det.LNfoia.pdf) dell'Autorità Nazionale Anti Corruzione (ANAC):
@@ -80,8 +80,6 @@ Può essere inviata con modalità tradizionali (raccomandata, lettera), oppure v
 La Pubblica Amministrazione che riceve la richiesta smista la domanda al soggetto compentente a rispondere. Se non comprende la richiesta ricevuta, chiederà chiarimenti al mittente.<br>
 Se ci sono controinteressati, la PA li avvisa della richiesta e chiede loro se si oppongono (e per quali motivi); in questo caso, il termine entro cui deve rispondere si sospende per 10 giorni.
 Successivament **emette provvedimento motivato** (sia di accoglimento sia di rigetto), **entro 30 giorni dalla ricezione della richiesta** e - se ha avuto costi vivi sostenuti per la riproduzione su supporti materiali (CD, DVD, stampa, ecc.) - richiede il rimborso dei costi sostenuti.
-
-Se non risponde entro il termine di 30 giorni, **la mancata risposta equivale al diniego**.
 
 ### Cosa fare in caso di diniego o mancata risposta
 
