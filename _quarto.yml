@@ -1,6 +1,7 @@
 project:
   type: book
   output-dir: docs
+  resources: CNAME
   render:
     - "!tmp/"
     - "!LICENSE.md"
@@ -76,3 +77,6 @@ format:
     number-sections: false
     link-external-newwindow: true
     link-external-filter: '.*vademecum\.asud\.net\.*'
+
+execute:
+  freeze: auto
