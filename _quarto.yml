@@ -64,9 +64,9 @@ book:
 
   page-footer:
     left: |
-      Un progetto di [ASud](https://asud.it)
+      Un progetto di [ASud](https://asud.net)
     right: |
-      Lorem ipsum
+      ""
 
 format:
   html:
@@ -74,3 +74,5 @@ format:
     lang: it
     toc-depth: 4
     number-sections: false
+    link-external-newwindow: true
+    link-external-filter: '.*vademecum\.asud\.net\.*'
