@@ -1,0 +1,3 @@
+- ottimizzato per mobile
+- social preview
+- link esterni all'esterno
