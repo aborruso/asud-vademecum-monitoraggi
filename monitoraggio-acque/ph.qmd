@@ -1,0 +1,40 @@
+---
+title: "pH"
+---
+
+### Cos’è il pH
+
+**Il pH esprime il carattere acido o basico/alcalino delle soluzioni.**
+
+::: {.callout-tip collapse="true"}
+## Soluzione
+L’acqua in natura si incontra sempre come soluzione. Quando si parla di **soluzione** si fa riferimento a una miscela omogenea di due o più componenti. Una soluzione è formata da un solvente che è la sostanza presente in quantità maggiore (acqua pura/ acqua distillata) e un soluto (minor quantità). Esempio di soluzioni sono l’acqua salata, dove l’acqua è il solvente e il sale (NaCl) il soluto, o anche l’acqua minerale perché al suo interno sono disciolti molti sali minerali tra cui Magnesio, Calcio, Potassio, Sodio, Solfati e Bicarbonati.
+:::
+
+L’acidità di una soluzione dipende dalla *concentrazione di ioni H+* (anche detti protoni) disciolti in una soluzione acquosa.
+
+Il pH si misura con una scala particolare: *maggiore* è la concentrazione di ioni H+, *minore* è il valore del pH.
+
+Il pH è inoltre una misura *logaritmica*, quindi ad ogni variazione di 1 punto di pH la concentrazione di ioni H+ aumenta o diminuisce di un fattore 10.
+
+**Di solito i valori del pH di una soluzione sono compresi fra 0 (più acido) e 14 (più basico), con un valore di 7 per le soluzioni neutre** ad esempio l’acqua pura. Questo non avviene però in natura, perché l’acqua a contatto con roccia, terra e altri materiali cattura sostanze minerali, che disciogliendosi modificano la concentrazione di ioni H+ e quindi le caratteristiche acide o basiche della soluzione acquosa. Ad esempio nel caso di falde a contatto con terreni vulcanici il pH può essere addirittura inferiore a 5.
+
+### Strumenti da utilizzare per il monitoraggio
+
+**Cartine tornasole o pHmetro**
+
+Si può procedere in due modi:
+
+**Cartine tornasole.** Si tratta di strisce di carta imbevute di tornasole (un colorante estratto dai licheni del genere *Rocella*), che immerse in acqua cambiano colore virando dal rosso in ambiente acido al blu in ambiente basico. Ad ogni colore corrisponde un valore di pH ovvero un certo grado di acidità.
+
+**pHmetro (o piaccametro)**. È un apparecchio elettronico che permette di avere un dato preciso (fino alla seconda cifra decimale) del [pH](https://it.wikipedia.org/wiki/PH) di un liquido. Un tipico piaccametro consiste di una sonda (un [elettrodo a vetro](https://it.wikipedia.org/wiki/Elettrodo_a_vetro)) collegata ad un dispositivo elettronico che raccoglie il segnale della sonda, calcola il valore di pH corrispondente e lo rappresenta su un display.
+
+### Procedimento
+
+Accendere il pHmetro. Togliere il cappuccio che protegge la sonda e inserirlo nel secchio con l’acqua raccolta fino ad immergere totalmente la sonda (primi 3 cm). Attendere fino a quando il simbolo della clessidra scompare e i valori siano stabili. Sul display dello strumento comparirà sia il valore della temperatura, sia quello del pH. Segnare la cifra. Sciacquare la sonda e spegnere lo strumento. Calibrare lo strumento una volta al mese.
+
+![Misura del PH, archivio fotografico di A Sud](../imgs/image7.jpg){#fig-misura_ph fig-alt="Misura del PH, archivio fotografico di A Sud"}
+
+### Quali rischi sono associati a valori alti di pH
+
+Il pH non solo aiuta a comprendere il carattere acido/basico dell’acqua ma anche alcune delle sue caratteristiche, infatti insieme ad altri fattori condiziona il suo *potere incrostante e corrosivo*. Inoltre **una sua variazione è *spia* di altri cambiamenti avvenuti nel liquido.** Nelle acque fluviali generalmente il pH **si aggira intorno ai valori tra il 6.5 e l’9.** Si tratta di un parametro base utile perché ogni corpo idrico ha valori specifici che lo caratterizzano e quindi variazioni repentine rispetto a un range “tipico” indicano che si sta verificando una qualche anomalia “perturbazione” nel sistema. Per tale ragione, è importante svolgere analisi continuative di tali valori.

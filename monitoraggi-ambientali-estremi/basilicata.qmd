@@ -1,5 +1,31 @@
 ---
 title: "Il caso della Val d’Agri: analizziamo la Basilicata"
+toc: false
 ---
 
-Do et proident duis exercitation nisi voluptate aliquip exercitation commodo ut. Irure minim amet incididunt occaecat laboris nostrud laborum tempor culpa sit. Eiusmod consequat laborum veniam ad ea sunt cillum labore elit irure est aliqua.
+Il Texas d’Italia o la sede del giacimento di petrolio più grande dell’Europa occidentale: con queste parole spesso è stata descritta una delle aree geografiche del nostro paese più ricche di gas e petrolio e che svolge un ruolo chiave nella produzione di idrocarburi sul nostro territorio. Si tratta della **Val d’Agri**, una valle appenninica situata in provincia di Potenza che da venticinque anni ha cambiato la sua vocazione principale adattandosi al nuovo **business del petrolio.**
+
+Se da una parte la scoperta della presenza delle fonti fossili ha portato con sé la promessa di nuovi posti di lavoro per una delle aree interne del nostro paese, dall’altra **lo sfruttamento petrolifero ha provocato diversi problemi dal punto di vista ambientale e sanitario.** In particolare il COVA (Centro Olio Val d'Agri) cioè l’area dove vengono effettuate le prime lavorazioni degli idrocarburi estratti, è stato sotto gli occhi dei riflettori da parte della cittadinanza per diverse volte a causa dei diversi incidenti che hanno provato la fuoriuscita di fiammate dal centro oli.
+
+**La *sfiducia* da parte della cittadinanza nei confronti degli enti preposti al controllo ed alla protezione dell’ambiente e della salute umana è stata alimentata** nel corso del tempo sia dalla **mancanza di pubblicazione dei dati sulla qualità delle matrici ambientali in maniera tempestiva, sia per le rassicurazioni che più volte sono state rivolte agli ambientalisti per specifiche situazioni che gli abitanti identificavano come critiche** (es. dopo la comparsa di macchie scure nelle acque del lago Pertusillo, il presidente della regione dopo un incontro con l’Arpab e Ispra, ha assicurato l’assenza di idrocarburi nel lago).
+
+Proprio per queste ragioni, l’associazione **COVA CONTRO** ha lanciato una campagna di monitoraggio chiamata **“*Analizziamo la Basilicata*”.** Si tratta di un’iniziativa lanciata dall’associazione ambientalista nel 2015, volta alla raccolta di fondi necessari a dare una risposta concreta, scientifica, alle criticità ambientali lucane. Proprio a causa del senso di sfiducia della cittadinanza, in pochi mesi la campagna ha raccolto centinaia di sottoscrizioni e grazie ai fondi raccolti, è stata acquistata la necessaria strumentazione nonché sono stati eseguiti campionamenti in molteplici punti della Regione ed analisi chimiche inviati poi a laboratori accreditati da Accredia (l’ente unico italiano di accreditamento scientifico). Come racconta Anna Berti Suman in un articolo pubblicato sulla rivista italiana di epidemiologia Epiprev[^1], un esempio di monitoraggio svolto dai cittadini è rappresentato dalla raccolta di campioni di acqua in aree chiave per l’estrazione del petrolio e per lo smaltimento dei sottoprodotti seguita da analisi in laboratori indipendenti certificati. In alcune occasioni, tra i diversi monitoraggi svolti sul territorio lucano, **i volontari hanno trovato nell’acqua composti classificati come cancerogeni tra cui il cadmio.**
+
+[^1]: È possibile leggere l’articolo completo [qui](https://epiprev.it/attualita/il-paradigma-del-cittadino-sentinella-incontra-lepidemiologia)
+
+Sempre secondo lo studio condotto all’interno della ricerca di dottorato sull’uso del monitoraggio civico nelle politiche di gestione del rischio ambientale di Anna Berti Suman, e successivamente nell’ambito del progetto Sensing for Justice **la maggior parte delle sentinelle civiche ha partecipato attivamente al monitoraggio dell’ambiente per avere maggiore consapevolezza sugli effetti sanitari dell’impatto del petrolio visto che già in prima persona avevano subito conseguenze da questo punto di vista.**
+
+In questo senso il monitoraggio ambientale non è altro che un ennesimo **strumento di lotta per rivendicare il diritto alla salute e a vivere in un ambiente salubre**. Il fondamentale ruolo che le sentinelle hanno avuto e hanno ancora sul territorio lucano è stato riconosciuto anche da esperti e tecnici che conoscono molto bene la questione lucana. Un esempio tra questi è stato il medico Giambattista Mele, medico lucano che ha riconosciuto il fondamentale ruolo delle sentinelle in quanto **prime allerte sul territorio che possono individuare tempestivamente fenomeni che le istituzioni non hanno ancora individuato.** Sempre Anna Berti Suman all’interno dello studio mette in luce un aspetto fondamentale:
+
+*“il caso delle sentinelle lucane, se visto in una prospettiva storica, dimostra una tendenza crescente dei cittadini a usare le informazioni raccolte per contrastare dati riportati dalle autorità competenti, per esigere l’applicazione delle normative ambientali di riferimento e, da ultimo, per chiedere il rispetto del loro diritto a un ambiente sano e ad accedere all’informazione ambientale, come riconosciuto internazionalmente dalla Convenzione di Aarhus (“Convenzione sull’accesso alle informazioni, la partecipazione dei cittadini e l’accesso alla giustizia in materia ambientale”). Così facendo, i volontari locali dimostrano la volontà di affrontare il conflitto ambientale, rifiutando un ruolo passivo di vittime*[^2]*”.*
+
+[^2]: <https://epiprev.it/attualita/il-paradigma-del-cittadino-sentinella-incontra-lepidemiologia>
+
+Ribaltando quindi il ruolo della società civile si riesce non solo ad avere una **maggiore fruizione dei dati ambientali sul territorio ma anche di creare comunità in loco, con l’obiettivo di rivendicare diritti di base di cui tutti i cittadini dovrebbero poter godere.**
+
+::: {.callout-tip}
+## Approfondimento
+È possibile approfondire sul caso lucano al seguente link:<br>
+[https://covacontro.org/category/progetto-sciamano-locchio-di-cova-contro-dallo-spazio/](https://covacontro.org/category/progetto-sciamano-locchio-di-cova-contro-dallo-spazio/)
+:::
+

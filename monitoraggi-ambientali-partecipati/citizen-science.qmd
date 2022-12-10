@@ -1,0 +1,16 @@
+---
+title: "Cos’è la Citizen science"
+toc: false
+---
+
+Il termine Citizen Science (CS) indica quel complesso di attività collegate ad una ricerca scientifica a cui partecipano i cittadini con diversi gradi di coinvolgimento: si va dal semplice coinvolgimenti della cittadinanza nella fase della raccolta dati a un processo in cui invece i cittadini sono inclusi in tutte le fasi del processo inclusa la progettazione. In quest’ultimo caso si parla di *“citizen science estrema”*.
+
+**La CS estrema**, che è quella che la nostra associazione persegue, **è intrinsecamente non gerarchica e segue le dinamiche proprie della co-creazione di saperi.** In altre parole, sono gli stessi cittadini che definiscono sin dall’inizio **obiettivi di ricerca e finalità**, costruendo assieme agli esperti l’intero processo e la metodica della raccolta delle informazioni.
+
+Si tratta dunque di procedimenti scientifici pensati insieme alle comunità che permettono di produrre nuovi dati e quindi nuova conoscenza che a loro volta diventano strumenti per le comunità in lotta su questioni ambientali territoriali. Avviare un’analisi indipendente di acqua, suolo o aria dal basso con il supporto e la supervisione di un comitato scientifico permette di dare robustezza a fenomeni molto spesso percepiti dalla cittadinanza ma non supportati da prove scientifiche e dati.
+
+Vivere in Valle Galeria oggi significa doversi abituare a odori sgradevoli legati alla presenza di diverse fonti di contaminazione. Tuttavia in assenza di uno studio sull’analisi della qualità dell’aria svolto ad hoc nel quartiere e che prenda in considerazione le varie pressioni ambientali, è difficile quantificare l’impatto reale sull’ambiente e sulla salute delle persone. Le percezioni degli abitanti sono un elemento fondamentale da tenere in considerazione nonché un elemento da cui partire per svolgere degli approfondimenti successivi. Tuttavia uno studio indipendente specifico sul territorio permette di avere uno strumento di rivendicazione importante per dare robustezza a quello che le comunità sentono con il naso e vedono con gli occhi da molto tempo.
+
+Ma come si procede per svolgere questo tipo di attività?
+
+Premesso che ogni territorio è diverso e che non può esserci una ricetta unica per tutti, nel prossimo capitolo verranno presentati i parametri chimico - fisici che possono essere monitorati per mezzo di strumenti low-cost e che sono stati utilizzati per il monitoraggio del fiume Tevere e del fiume Aniene.

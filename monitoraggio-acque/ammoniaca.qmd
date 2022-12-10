@@ -1,0 +1,29 @@
+---
+title: "Ammoniaca"
+---
+
+### Che cos’è l’ammoniaca
+
+L’ammoniaca (NH3) è uno dei sottoprodotti del ciclo dell’azoto. I prodotti azotati vengono eliminati dal nostro organismo, ma più in generale di tutti i vertebrati tranne uccelli e alcuni rettili, tramite *l’urea* che è contenuta *nell’urina*.
+
+L’ammoniaca quindi si trova in natura e deriva dalla decomposizione dell’urea, dalla putrefazione di animali e piante e dalla degradazione di materiale in via di fossilizzazione (resti di piante, giacimenti di torba, ecc.).
+
+### Strumenti da utilizzare per svolgere i monitoraggi
+
+**Strumento “Checker” della Hanna Instruments**
+
+Per svolgere la misura viene utilizzato uno strumento “Checker” della Hanna Instruments. Si tratta di uno spettrofotometro portatile che permette di ottenere una misura della concentrazione di ammoniaca nell’acqua. Lo spettrofotometro possiede un display su cui appare il dato e uno scomparto interno dove la soluzione viene inserita e successivamente illuminata da una luce a led. La luce passa attraverso alla soluzione e il raggio uscente ha un’intensità minore in base al contenuto di ammoniaca della soluzione.
+
+### Procedimento
+
+Accendere lo strumento premendo il tasto on/off. Prendere la cuvetta di vetro e riempirla con 10 ml (fino alla linea indicata) di acqua da campionare. Asciugare la cuvetta ed inserirla all’interno dello scompartimento. Premere il pulsante. Quando sul display si visualizzano le diciture “Add”, “C.2” e “Press” lampeggiante, lo strumento è azzerato. Rimuovere la cuvetta dallo strumento e svitare il tappo. Aggiungere 4 gocce di reagente A. Riposizionare il tappo e agitare delicatamente la soluzione. Svitare il tappo ed aggiungere 4 gocce di reagente B. Rimettere il tappo e agitare delicatamente la soluzione. Inserire la cuvetta nello strumento. Premere e tenere premuto il pulsante fino a quando si visualizza il timer (il display mostrerà il conto alla rovescia a partire da 3 minuti e 30 secondi). Lo strumento visualizza la concentrazione di azoto ammoniacale (NH 3-N). Per convertire la lettura in ppm di ammoniaca (NH 3), moltiplicare la lettura per il fattore 1.214. Segnare la cifra e rimuovere la soluzione dalle cuvette. Non disperdere in ambiente.
+
+### Quali sono i rischi legati ad alti valori di ammoniaca?
+
+Lo ione ammonio (NH4+), è uno dei 4 parametri dell’LIMeco usato nel monitoraggio della Direttiva Europea 2000/60/CE (Water Framework Directive, WFD). Esso **viene spesso usato come “allarme”**, è infatti considerato un ottimo indicatore di una potenziale condizione di criticità associata a **carenza di ossigeno** (anossia), condizione particolarmente critica per tutto l’ecosistema fluviale.
+
+La presenza di ammonio nelle acque è anche un indicatore di possibile inquinamento da batteri o da reflui animali o scarichi urbani. **La stima del LIMeco prevede anche la valutazione della concentrazione dello ione ammonio nelle acque, misurata in milligrammi di azoto al litro (mg N/l).**
+
+L’azoto ammoniacale deriva principalmente **dalla degradazione dei composti organici azotati** provenienti da scarichi fognari e allevamenti zootecnici, dal dilavamento di terreni agricoli in cui siano stati utilizzati concimi di sintesi a base di urea e da reflui delle industrie alimentari e chimiche. In corsi d’acqua ben ossigenati, l’azoto ammoniacale è trascurabile perché si ossida rapidamente ad azoto nitrico
+
+Generalmente la presenza di ammonio nelle acque **è un indicatore di possibile inquinamento da batteri o da reflui animali o scarichi urbani.** L’ammonio è infatti largamente utilizzato nella produzione dei fertilizzanti e dei mangimi animali, nella preparazione di detergenti, sanificanti e additivi alimentari, nell’industria manifatturiera delle fibre, dei materiali plastici, degli esplosivi, della carta e della gomma ed è impiegato come refrigerante nella lavorazione dei metalli e nella preparazione di composti azotati per diversi impieghi.

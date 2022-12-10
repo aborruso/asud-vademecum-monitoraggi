@@ -1,5 +1,33 @@
 ---
-title: "Il caso giapponese della misurazione di radioattività dopo l’incidente nucleare di Fukushima"
+title: "Il caso giapponese: misurazioni della radioattività dopo l’incidente nucleare di Fukushima"
+toc: false
 ---
 
-Do et proident duis exercitation nisi voluptate aliquip exercitation commodo ut. Irure minim amet incididunt occaecat laboris nostrud laborum tempor culpa sit. Eiusmod consequat laborum veniam ad ea sunt cillum labore elit irure est aliqua.
+Ci sono casi in cui la citizen science ha avuto un ruolo centrale subito dopo situazioni di gravi emergenze: è il **caso del Giappone** dove nel 2011 a seguito di un terremoto e un conseguente maremoto, è avvenuto uno dei più **gravi disastri nucleari dei nostri tempi** che ha facilitato l’attivazione coordinata della cittadinanza per acquisire dati sulla presenza di radiazioni.
+
+In questo senso, il disastro nucleare di Fukushima ha segnato in maniera indelebile la percezione negativa sull’uso del nucleare da parte della società civile. Sebbene infatti già a partire dagli anni ‘70, cioè nella fase di realizzazione delle centrali, c’era già qualche forma di opposizione, la **percezione negativa circa il rischio nucleare è aumentata con il tempo, soprattutto dopo l’incidente.**
+
+Il sentimento di sfiducia, dopo il disastro, è cresciuto notevolmente sia perché **le istituzioni non sono riusciti a comunicare tempestivamente l’accaduto**, sia perché per quanto possibile hanno **minimizzato il rischio legato alla contaminazione.** Proprio per il senso di sfiducia nei confronti delle istituzioni, nasce la necessità da parte della cittadinanza di attivarsi in prima persona per monitorare il grado di contaminazione causato dalle scorie radioattive.
+
+Le misure sono state effettuate con uno strumento chiamato **Geiger counter**, il quale permetteva di rilevare **le radiazioni ionizzanti**. E’ stato creato pochi giorni dopo il disastro da un gruppo di scienziati (ingegneri, informatici, designer) preoccupati per l'ambiente e per la salute, e messo subito a disposizione per i cittadini.
+
+Lo strumento stesso è **un chiaro esempio dell’approccio altamente aperto (open-source), partecipativo, dal basso, e diy (do it yourself) della CS.** Ha infatti un costo accessibile (circa 500 euro) ed è di facile utilizzo, anche per cittadini non qualificati e senza esperienza. Inoltre, essendo lo strumento collegato a una piattaforma chiamata **Safecast**, permette di mappare i dati in maniera geolocalizzata. In questo modo non solo è stato possibile valutare il grado di contaminazione della propria zona, ma anche di produrre le basi scientifiche per una nuova conoscenza fatta dai cittadini in alternativa a quella istituzionale. In aggiunta essendo svolto da moltissimi cittadini si è permesso di acquisire informazioni e dati in zone non sempre coperte dalle analisi svolte dalle istituzioni che di fatto non sono riuscite a fornire dei dati così capillari.
+
+![Esempio di campionatore, Archivio di Safecast [https://safecast.org/](https://safecast.org/)](../imgs/image2.jpg){#fig-campionatore fig-alt="Esempio di campionatore, Archivio di Safecast"}
+
+
+L’iniziativa, partita dal Giappone, nel corso del tempo si è diffusa anche in America e Europa, soprattutto dopo il rilevamento di forti concentrazioni di radiazioni nel cibo e nelle aree pubbliche (es. scuole), che si trovavano ben oltre la zona contaminata officiale (primi 20 km intorno alla centrale nucleare).
+
+A più di 10 anni dall’esperienza di Fukushima, emerge come la diffidenza verso l’uso del nucleare non risieda unicamente nella tecnologia stessa ma più in generale sulla sua gestione e sulla diffusione dei dati ambientali relativa ai possibili impatti.
+
+Come nel caso della Basilicata la necessità e l’urgenza di possedere dati prodotti dal basso, ha permesso l’attivazione della cittadinanza che oggi sono produttori di dati ambientali sull’impatto del disastro.
+
+Nel caso di Fukushima i cittadini ancora oggi, a 10 anni di distanza, monitorano l’area, al fine di conoscere i dati e sfidare i dati degli enti governativi.
+
+::: {.callout-tip}
+## La Citizen Science in Giappone
+
+In Giappone esiste una più lunga tradizione di iniziative che si contrappongono alle istituzioni e cercano di produrre una conoscenza sostenuta da dati raccolti collettivamente dal basso. Questo approccio alla scienza, in giapponese shimin kagaku, equivale al nostro concetto di CS estrema.
+:::
+
+Il caso di Fukushima è inoltre simbolico perché il ruolo dei cittadini è stato centrale per fare luce sulle conseguenti morti delle persone all’incidente. Se infatti le istituzioni giapponesi hanno etichettato diversi morti al maremoto e al terremoto e non all’incidente nucleare, la diffusione delle strumentazioni di monitoraggio e delle relative conoscenze ha permesso ai cittadini di sostenere le proprie rivendicazioni sul diritto alla salute dell’ambiente e conseguentemente alla loro salute.

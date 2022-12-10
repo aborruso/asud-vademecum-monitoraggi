@@ -1,0 +1,10 @@
+---
+title: "Crediti"
+toc: false
+---
+
+Il presente vademecum è stato realizzato dalle associazioni [A Sud](https://asud.net/) e ondata.it. Si ringraziano: Andrea Borruso, Maura Peca, Lorenzo Perone, Chiara Segalla, e Sara Vegni per i contributi elaborati all'interno del report e Bruna Gumiero per la revisione scientifica.
+
+La guida è stata realizzata all'interno del progetto RomaUP finanziato dalla Fondazione Charlemagne tramite il programma *periferiacapitale*, l'8x1000 della Chiesa Valdese, e Comunità Solidali della Regione Lazio.
+
+Il vademecum è pubblicato sotto licenza Creative Commons Attribuzione 4.0 Internazionale ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)).

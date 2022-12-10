@@ -1,0 +1,26 @@
+---
+title: "Conducibilità elettrica o conduttività"
+---
+
+### Cos’è la conducibilità elettrica
+
+La conducibilità elettrica o conduttività è un parametro che dipende dal *contenuto di sali disciolti in acqua*.
+
+Si parla di conduttività perché l**’acqua è in grado di condurre la corrente per mezzo dei sali minerali disciolti in essa,** presenti sotto forma di ioni.
+
+In particolare, l’acqua “pura”/distillata priva di minerali è un cattivo conduttore di elettricità. **Se il valore di conducibilità dell’acqua è *alto* l’acqua è *ricca* di sali, se è basso l’acqua è povera di sali.** L’unità di misura della conducibilità sono i micro Siemens per centimetro (µS/cm) misurati a una temperatura di 20°C.
+
+### Strumenti da utilizzare per il monitoraggio
+
+**Conduttimetro**
+
+Si tratta di uno strumento low cost elettronico che permette di acquisire un dato preciso della conducibilità elettrica (EC) in maniera semplice e istantanea. Un tipico conduttimetro consiste di una **sonda (un [elettrodo a vetro](https://it.wikipedia.org/wiki/Elettrodo_a_vetro)) collegata ad un dispositivo elettronico** che raccoglie il segnale della sonda, calcola il valore EC in µS/cm<sup>-1</sup> corrispondente e lo rappresenta su un display. Il sensore di temperatura integrato consente di effettuare misurazioni di EC con compensazione automatica della temperatura.
+
+### Procedimento
+
+Accendere il conduttimetro. Togliere il cappuccio che protegge la sonda e inserirlo nel secchio con l’acqua raccolta, fino ad immergere totalmente la sonda (primi 3 cm). Attendere fino a quando il simbolo della clessidra scompare e i valori siano stabili. Sul display dello strumento comparirà sia il valore della temperatura, sia quello della conducibilità (con compensazione automatica della temperatura). Segnare la cifra. Sciacquare la sonda e spegnere lo strumento.
+Calibrare lo strumento una volta al mese.
+
+### Quali rischi sono associati a valori alti di conduttività
+
+Variazioni significative e repentine di conduttività possono essere indicatori di un’alterazione della qualità dell’acqua. **Un aumento della conducibilità può essere sintomo di un aumento nella concentrazione di metalli pesanti o inquinanti.**

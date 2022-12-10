@@ -22,34 +22,39 @@ book:
     left:
       - text: "Home"
         file: index.qmd
+      - text: "Crediti"
+        file: crediti.qmd
 
   chapters:
     - index.qmd
-    - text: "Le politiche pubbliche"
+    - text: "Partecipazione civica e politiche pubbliche"
       file: politiche-pubbliche/index.qmd
-    - part: "Monitoraggi ambientali partecipati"
+    - part: "I Monitoraggi ambientali partecipati"
       chapters:
-        - file: monitoraggi-ambientali-partecipati/index.qmd
-          text: "Introduzione"
-        - file: monitoraggi-ambientali-partecipati/quali-bisogni.qmd
-          text: "Quali bisogni?"
-        - file: monitoraggi-ambientali-partecipati/tevere-aniene.qmd
-          text: "Tevere e Aniene"
-    - part: raccolta-campione/index.qmd
+        - file: monitoraggi-ambientali-partecipati/citizen-science.qmd
+          text: "Cos’è la Citizen science"
+        - file: monitoraggi-ambientali-partecipati/perche-avviarli.qmd
+          text: "Perché avviarli"
+    - part: monitoraggio-acque/index.qmd
       chapters:
-        - file: raccolta-campione/torbidita.qmd
-        - file: raccolta-campione/ph.qmd
-        - file: raccolta-campione/conducibilita.qmd
-        - file: raccolta-campione/nitrati.qmd
-        - file: raccolta-campione/fosfati.qmd
-        - file: raccolta-campione/escherichia-coli.qmd
-        - file: raccolta-campione/ammoniaca.qmd
+        - file: monitoraggio-acque/torbidita.qmd
+        - file: monitoraggio-acque/ph.qmd
+        - file: monitoraggio-acque/conducibilita.qmd
+          text: "Conducibilità elettrica"
+        - file: monitoraggio-acque/nitrati.qmd
+        - file: monitoraggio-acque/fosfati.qmd
+        - file: monitoraggio-acque/escherichia-coli.qmd
+        - file: monitoraggio-acque/ammoniaca.qmd
     - part: monitoraggi-ambientali-estremi/index.qmd
       chapters:
         - file: monitoraggi-ambientali-estremi/basilicata.qmd
           text: "Basilicata"
         - file: monitoraggi-ambientali-estremi/fukushima.qmd
           text: "Fukushima"
+        - file: monitoraggi-ambientali-estremi/ecuador.qmd
+          text: "Ecuador"
+        - file: monitoraggi-ambientali-estremi/altri-casi.qmd
+          text: "Altri casi"
     - part: cultura-dato/come.qmd
       chapters:
         - cultura-dato/descrivere.qmd
@@ -77,6 +82,7 @@ format:
     number-sections: false
     link-external-newwindow: true
     link-external-filter: '.*vademecum\.asud\.net\.*'
+    email-obfuscation: javascript
 
 execute:
   freeze: auto

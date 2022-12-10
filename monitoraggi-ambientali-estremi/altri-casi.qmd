@@ -1,0 +1,14 @@
+---
+title: "Altri casi di monitoraggio ambientale di acqua e aria"
+toc: false
+---
+
+La citizen science è quindi uno strumento efficace che la società civile ha a disposizione per affrontare situazioni problematiche in ambito ambientale e/o climatico. Negli ultimi anni in Europa, ma anche in America, Asia e Africa, le iniziative che si occupano del monitoraggio della qualità delle matrici aria e acqua sono aumentate notevolmente nel tempo.
+
+Queste campagne si sono diffuse rapidamente sia per il **crescente interesse da parte dei cittadini di conoscere il grado di salubrità dell’ambiente in cui vivono**, sia a causa della **diffidenza verso l’operato delle istituzioni**, che non sempre pubblicano e forniscono i dati in maniera tempestiva, sia per la **facilità di azione** di tale iniziative.
+
+Per questa ragione si è scelto di riportare una serie di esempi ritenuti interessanti che possono essere approfonditi. Oltre all’iniziativa fatta da A Sud per i fiumi Tevere e Aniene per mezzo del progetto RomaUP, sono da segnalare i progetti che prevedono la costruzione di centraline per la valutazione della qualità dell’aria. In Italia segnaliamo i progetti nati dal basso tramite **Cittadini per l’Aria**, **AriaPesa** e **Che Aria tira?**. In tutti e tre i casi si tratta di monitoraggio della qualità dell’aria per mezzo di centraline o autoprodotte o acquistate a prezzi contenuti che permettono cittadini e cittadine di avere maggiori informazioni sui dati ambientali della propria città. Dal punto di vista dell’acqua, altri progetti interessanti sono quelli portati avanti da **Scienza Radicata, A Sud, e da parte dell’Osservatorio di citizen science.** In tutti e tre i casi i monitoraggi sono molto simili a quelli descritti nella parte del monitoraggio dell’acqua nei precedenti capitoli. Tuttavia è da segnalare come in molte di queste iniziative i percorsi avviati sono di citizen science estrema che hanno lo scopo di supportare vertenze locali. Nel caso di Scienza Radicata, per esempio, è stato svolto un monitoraggio a Fiumicino, dove c’è in corso un conflitto ambientale legato all'incremento dell’area aeroportuale.
+
+L’aumento di iniziative di questo tipo indica certamente un crescente interesse da parte dei cittadini di essere protagonisti e non semplici ricevitori passivi di dati sullo stato di salute del proprio territorio, allo stesso tempo però segnalano che molte volte i dati istituzionali non sono sufficienti o, semplicemente, non sono accessibili.
+
+Al fine di comprendere meglio come dovrebbero essere pubblicati i dati dalle istituzioni e quali sono le pratiche da mettere in campo, si è scelto di approfondire il tema nei successivi capitoli.

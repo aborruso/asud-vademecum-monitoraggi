@@ -1,3 +1,7 @@
+- vademecum.asud.net
 - ottimizzato per mobile
 - social preview
 - link esterni all'esterno
+- nel doc non sono citate tutte le fonti delle immagini
+- test alternativo per tutte le immagini
+- lo spostiamo in un vostro spazio e vi insegno a modificarlo

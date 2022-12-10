@@ -1,5 +1,12 @@
 ---
 title: "Casi di monitoraggio ambientali estremi"
+toc: false
 ---
 
-Do et proident duis exercitation nisi voluptate aliquip exercitation commodo ut. Irure minim amet incididunt occaecat laboris nostrud laborum tempor culpa sit. Eiusmod consequat laborum veniam ad ea sunt cillum labore elit irure est aliqua.
+Come specificato in premessa, la scienza dei cittadini è un concetto *“ombrello”* che racchiude approcci anche molto diversi: dalla semplice partecipazione di cittadini alle fasi di monitoraggio, attraverso quello che viene definito **rilevamento (*sensing*) dei cittadini** (o con l’uso di tecnologie a basso costo o più semplicemente dei sensi delle persone, le persone si fanno sensori) a un vero e proprio **coinvolgimento *in tutte le fasi* del processo inclusa la progettazione**. In quest’ultimo caso si parla di *“**citizen science estrema”*****.** L’aggettivo “estrema” fa riferimento al fatto che l’iniziativa della citizen science nasce *dal basso* (è sviluppata dalle persone comuni senza una intermediazione delle istituzioni, del settore privato o dell’accademia); è altamente ***non gerarchica*** (ogni partecipante può giocare un ruolo durante il processo) ed è profondamente ***co-creata*** (i partecipanti sono coinvolti dalle prime fasi della definizione del problema all’analisi e alla diffusione dei risultati).
+
+In altre parole, **nella citizen science estrema, la gente comune o *la società civile organizzata* (es. associazioni o comitati), progettano l’iniziativa dall’inizio alla fine.**
+
+La differenza rispetto alle altre iniziative di CS è **l’indipendenza** del tipo di attività da svolgere. Solitamente sia le iniziative accademiche che quelle istituzionali tendono ad essere più “*addomesticate*” nel senso che nascendo in collaborazione con le istituzioni tendono ad avere obiettivi *contributivi* piuttosto che *sfidanti o conflittuali*. Le forme estreme di citizen science invece tendono a “sfidare” il sistema. In questo caso, si parte da un problema *locale* e *localizzato* percepito come urgente dalla comunità e si procede con la raccolta di dati mirata ad affrontare esattamente quel problema.
+
+In questa sezione si è scelto quindi di raccontare alcuni casi di monitoraggi ambientali partiti dal basso che sono stati particolarmente **sfidanti**. Alcuni perché hanno direttamente esaminato e raccolto dati lì dove le istituzioni erano carenti o dove non c’era una reale fiducia da parte dei cittadini nei confronti del privato e del pubblico; altri perché pur partendo dal basso sono riusciti a creare delle successive connessioni con gli enti locali e con gli istituti di controllo, arrivando a creare una sinergia interessante tra comitati locali, associazioni e enti di ricerca o amministrazioni pubbliche.
