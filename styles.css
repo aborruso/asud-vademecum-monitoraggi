@@ -1,0 +1,11 @@
+#title-block-header > div.quarto-title > h1 {
+  color: #10b690;
+}
+
+section > h2 {
+  color: #10b690 !important;
+}
+
+section > h3 {
+  color: #10b690 !important;
+}

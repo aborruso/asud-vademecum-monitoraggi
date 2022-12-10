@@ -10,14 +10,17 @@ project:
 book:
   title: "Come diventare sentinelle ambientali"
   page-navigation: true
+  site-url: https://vademecum.asud.net/
 
   twitter-card:
     creator: "@ASudOnlus"
     card-style: summary_large_image
     image: "imgs/cover.png"
+    description: "Il vademecum/la guida che ti spiega come fare un progetto di monitoraggio ambientale partecipato e come accedere  alle informazioni ambientali"
   open-graph:
     locale: it_IT
     image: "imgs/cover.png"
+    description: "Il vademecum/la guida che ti spiega come fare un progetto di monitoraggio ambientale partecipato e come accedere  alle informazioni ambientali"
 
   sidebar:
     style: docked
@@ -77,7 +80,8 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo]
+    css: styles.css
     lang: it
     toc-depth: 4
     number-sections: false
@@ -87,14 +91,3 @@ format:
 
 execute:
   freeze: auto
-
-website:
-  site-url: https://vademecum.asud.net/
-  title: "Come diventare sentinelle ambientali"
-  twitter-card:
-    creator: "@ASudOnlus"
-    card-style: summary_large_image
-    image: "imgs/cover.png"
-  open-graph:
-    locale: it_IT
-    image: "imgs/cover.png"
