@@ -3,27 +3,30 @@ project:
   output-dir: docs
   resources: CNAME
   render:
+    - "*.qmd"
     - "!tmp/"
     - "!LICENSE.md"
 
 book:
-  title: "Vademecum monitoraggio ambientale"
+  title: "Come diventare sentinelle ambientali"
   page-navigation: true
+
+  site-url: https://vademecum.asud.net/
+  title: "Come diventare sentinelle ambientali"
+  # favicon: risorse/favicon.png
+  twitter-card:
+    creator: "@ASudOnlus"
+    card-style: summary_large_image
+    image: "imgs/cover.png"
+  open-graph:
+    locale: it_IT
+    image: "imgs/cover.png"
 
   sidebar:
     style: docked
     background: light
     search: true
     collapse-level: 1
-
-  navbar:
-    background: primary
-    search: false
-    left:
-      - text: "Home"
-        file: index.qmd
-      - text: "Crediti"
-        file: crediti.qmd
 
   chapters:
     - index.qmd
@@ -64,9 +67,10 @@ book:
         - cultura-dato/scaricabili.qmd
     - part: "Strumenti"
       chapters:
-        - cultura-dato/creare-csv.qmd
         - cultura-dato/accesso.qmd
-        - cultura-dato/raccolta.qmd
+        - cultura-dato/diritti-cittadinanza.qmd
+        - cultura-dato/creare-csv.qmd
+        # - cultura-dato/raccolta.qmd
 
   page-footer:
     left: |
@@ -86,3 +90,15 @@ format:
 
 execute:
   freeze: auto
+
+website:
+  site-url: https://vademecum.asud.net/
+  title: "Come diventare sentinelle ambientali"
+  # favicon: risorse/favicon.png
+  twitter-card:
+    creator: "@ASudOnlus"
+    card-style: summary_large_image
+    image: "imgs/cover.png"
+  open-graph:
+    locale: it_IT
+    image: "imgs/cover.png"

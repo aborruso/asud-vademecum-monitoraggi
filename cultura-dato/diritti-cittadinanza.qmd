@@ -1,0 +1,60 @@
+---
+title: "Diritti di cittadinanza digitali"
+---
+
+## Introduzione
+
+In Italia, nel contesto del "Codice dell'Amministrazione Digitale" (CAD), è definita la **cittadinanza digitale** e quali sono i **diritti** digitali di **cittadini e imprese**.
+
+Il **15 marzo 2022** è [stata **pubblicata**](https://www.agid.gov.it/sites/default/files/repository_files/guida_riepilogo_diritti_cittadinanza_digitale_03-2022-acc.pdf) dall'Agenzia per l'Italia digitale (**AgID**) la **Guida dei diritti di cittadinanza digitali**, che è un documento a cui fare riferimento per capire come richiedere che siano rispettati.
+
+::: {.callout-tip}
+## La "Guida dei diritti di cittadinanza digitali" consultabile online
+Il documento è pubblicato **soltanto come PDF**. L'associazione onData per **diffonderlo** e **condividerlo** in modo più **ampio** ed **efficace**, ne ha [una **versione HTML**](https://ondata.github.io/guida-diritti-cittadinanza-digitali/presentazione/), **consultabile** e **condivisibile** da **qualsiasi terminale**.
+:::
+
+Come è riportato sul sito di AgID, i **diritti di cittadinanza digitali** risultano **concreti quando** chiunque può:
+
+-   **accedere** ai **servizi online** in maniera **semplice**, **sicura** e veloce (diritto all'uso delle tecnologie, identità digitale, accessibilità di siti web e applicazioni mobili);
+-   **acquisire rapidamente informazioni affidabili** e/o esprimere chiaramente la propria esigenza, instaurando una **comunicazione rapida** e con **pieno valore giuridico con la pubblica amministrazione** alla quale ci si rivolge per un procedimento o un servizio (istanze telematiche, comunicazioni elettroniche, domicilio digitale);
+-   **beneficiare** di **modalità di pagamento digitali** che assicurino maggiore trasparenza e sicurezza (pagamenti con modalità informatiche).
+
+## I diritti digitali nel contesto dei dati ambientali
+
+Nella sezione sull'[accesso alle informazioni](accesso.qmd) si fa riferimento a uno dei diritti di cittadinanza digitale più strettamente correlato ai dati ambientali: quello al **diritto all'accesso alle informazioni**. In quella sezione è indicato come esercitarlo.
+
+Oltre all'opportunità di chiedere alla Pubblica Amministrazione accesso a dati e informazioni, ci sono dei **diritti** correlati a **come dovrebbero essere pubblicati i dati** (non solo ambientali).
+
+Tra i documenti di riferimento più importanti:
+
+- il più volte citato "[Codice dell'Amministrazione Digitale](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig)" (CAD);
+- il [Decreto Legislativo 24 gennaio 2006, n. 36](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig), sull'attuazione della direttiva europea relativa all'apertura dei dati e al riutilizzo dell'informazione del settore pubblico;
+- le [Linee Guida Open Data](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/intro_consultazione.html).
+
+Alcuni dei diritti legati ai dati:
+
+- L'[art. 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art6) del Decreto 36 stabilisce che le pubbliche amministrazioni, gli organismi di diritto pubblico e le imprese pubbliche pubbliche amministrazioni **mettono a disposizione i propri documenti**, ove possibile **insieme** **ai** rispettivi **metadati**:
+  + in "**formato aperto**", un formato di dati reso pubblico, documentato esaustivamente e neutro rispetto agli strumenti tecnologici necessari per la fruizione dei dati stessi;
+  + in "**formato leggibile meccanicamente**", un formato di file strutturato in modo tale da consentire alle applicazioni software di individuare, riconoscere ed estrarre facilmente dati specifici, comprese dichiarazioni individuali di fatto e la loro struttura interna
+  + come "**dati di tipo aperto**", ovvero che 1) sono disponibili secondo i termini di una **licenza** o di una previsione normativa che ne **permetta l'utilizzo da parte di chiunque, anche per finalità commerciali**, in **formato disaggregato**; 2) sono **accessibili** attraverso le **tecnologie** dell'**informazione e della comunicazione**; 3) sono resi disponibili gratuitamente (o con i costi marginali sostenuti per la riproduzione, messa a disposizione e divulgazione dei documenti, nonché per l’anonimizzazione di dati personali o per le misure adottate per proteggere le informazioni commerciali a carattere riservato)
+- i **dati "dinamici"** (ovvero che variano frequentemente, come la gran parte di quelli ambientali) devono essere **resi disponibili** per il riutilizzo **immediatamente dopo la raccolta**. Se, per motivi di capacità finanziarie o tecniche, ciò non sia possibile, allora i dati dinamici possono essere resi disponibili per il riutilizzo entro un termine e/o con temporanee restrizioni tecniche, tali, però, da non pregiudicare indebitamente lo sfruttamento del loro potenziale economico e sociale. Il termine e le restrizioni tecniche di cui sopra devono essere definiti e motivati con apposito provvedimento del titolare dei dati.
+
+::: aside
+Documento: la rappresentazione di **atti**, **fatti** e **dati** a prescindere dal supporto nella disponibilità della pubblica amministrazione o dell'organismo di diritto pubblico.
+:::
+
+Sono **diritti** che si **applicano** a **tutti i documenti contenenti dati pubblici detenuti da pubbliche amministrazioni**, organismi di diritto pubblico, imprese pubbliche e private, ad eccezione di quelli indicati nel paragrafo "[Documenti esclusi dall'applicazione](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/ambito-di-applicazione.html#par-1-2)" delle "Linee Guida Open Data".
+
+
+::: {.callout-tip}
+## La guida "I dati che Vorrei"
+La campagna **#DatiBeneComune** ha realizzato il *vademecum* "[**I dati che Vorrei**](https://vorrei.datibenecomune.it/dati-che-vorrei/)", con diverse sezioni utili a delineare le caratteristiche e le modalità di pubblicazione con cui si dovrebbero rendere disponibili i dati pubblici (si suggerisce "[Dati: come li vorrei](https://vorrei.datibenecomune.it/dati-che-vorrei/come-li-vorrei/)").
+:::
+
+
+## A chi rivolgersi per la tutela dei diritti di cittadinanza digitali
+
+Per tutelare tali diritti è possibile **rivolgersi** al **Difensore civico per il digitale** (DCD). Questa figura svolge la funzione di valutare le segnalazioni relative a presunte violazioni dei diritti di cittadinanza digitale e, qualora le ritenga non manifestamente infondate le trasmette al Direttore Generale per l'attività di vigilanza, verifica, controllo e monitoraggio dell'Agenzia per l'Italia digitale (AgID), che potrà applicare sanzioni pecuniarie alle amministrazioni che violino le regole previste dalla normativa in materia ICT (*information and communication technology*) ([art. 17](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig~art17) comma 1 quater e [art. 18 bis CAD](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82!vig~art18bis), così come modificato dall'[art. 41 del D.L. 77/2021](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2021-05-31;77!vig~art41), vedi [paragrafo attori della governance del digitale](https://ondata.github.io/guida-diritti-cittadinanza-digitali/parte-seconda/tutela-dei-diritti//../attori-della-governance-del-digitale/)).
+
+È possibile **inviare una segnalazione** al DCD compilando l'[**apposito form**](https://www.agid.gov.it/it/form/difensore-civico-digitale) presente sul sito istituzionale di AgID, circostanziando e dettagliando l'evento, indicando tutti gli elementi informativi necessari all'esame da parte del difensore e la Pubblica Amministrazione che si sta segnalando.
+

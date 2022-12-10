@@ -3,9 +3,10 @@ title: Perché un vademecum e qual è il suo scopo
 toc: false
 ---
 
+![](imgs/cover.png){fig-alt="Come diventare sentinelle Ambientali. Guida pratica ad un progetto di monitoraggio ambientale partecipato."}
+
 ## Perché un vademecum e qual è il suo scopo
 
-![](imgs/cover.png){fig-alt="Come diventare sentinelle Ambientali. Guida pratica ad un progetto di monitoraggio ambientale partecipato."}
 
 Negli ultimi anni, come [**A Sud**](https://asud.net/), abbiamo intrapreso un nuovo percorso per ottenere giustizia ambientale: avviare percorsi di monitoraggio ambientale partecipati, immaginati e ideati insieme alle realtà attive sui territori. Si tratta di un ulteriore step che l’associazione ha messo in campo, dopo anni di lavoro svolto fianco a fianco dei comitati locali. Ascoltate le dinamiche che più di frequente si ripetono nei casi di conflitti ambientali, e tenuto conto delle istanze che il più delle volte i comitati locali avanzano, abbiamo compreso quanto sia importante facilitare i comitati nell’acquisizione di dati indipendenti sulla qualità delle matrici ambientali come acqua, aria e suolo.
 
@@ -24,5 +25,13 @@ Dove dovrebbero essere pubblicati i dati ambientali? In che formato? Con che fre
 ::: {.callout-tip}
 ## Questo vademecum è modificabile a aggiornabile
 
-In caso volessi segnalarci delle precisazioni, proporci degli aggiornamenti, condividerci idee di sviluppo, su questo documento, puoi scriverci a [maurapeca@asud.net](mailto:maurapeca@asud.net).
+In caso volessi segnalarci delle precisazioni, proporci degli aggiornamenti e condividerci idee su questo documento, scrivi a [maurapeca@asud.net](mailto:maurapeca@asud.net).
 :::
+
+## Crediti
+
+Il presente vademecum è stato realizzato dalle associazioni [A Sud](https://asud.net/) e [onData](https://ondata.it). Si ringraziano: Maura Peca, Andrea Borruso, Lorenzo Perone, Chiara Segalla, e Sara Vegni per i contributi elaborati all'interno del report e Bruna Gumiero per la revisione scientifica.
+
+La guida è stata realizzata all'interno del progetto RomaUP finanziato dalla Fondazione Charlemagne tramite il programma *periferiacapitale*, l'8x1000 della Chiesa Valdese, e Comunità Solidali della Regione Lazio.
+
+È pubblicato con licenza Creative Commons Attribuzione 4.0 Internazionale ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it)).
