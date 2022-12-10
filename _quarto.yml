@@ -11,9 +11,6 @@ book:
   title: "Come diventare sentinelle ambientali"
   page-navigation: true
 
-  site-url: https://vademecum.asud.net/
-  title: "Come diventare sentinelle ambientali"
-  # favicon: risorse/favicon.png
   twitter-card:
     creator: "@ASudOnlus"
     card-style: summary_large_image
@@ -32,10 +29,10 @@ book:
     - index.qmd
     - text: "Partecipazione civica e politiche pubbliche"
       file: politiche-pubbliche/index.qmd
-    - part: "I Monitoraggi ambientali partecipati"
+    - part: "I monitoraggi ambientali partecipati"
       chapters:
         - file: monitoraggi-ambientali-partecipati/citizen-science.qmd
-          text: "Cos’è la Citizen science"
+          text: "Cos’è la *citizen science*"
         - file: monitoraggi-ambientali-partecipati/perche-avviarli.qmd
           text: "Perché avviarli"
     - part: monitoraggio-acque/index.qmd
@@ -94,7 +91,6 @@ execute:
 website:
   site-url: https://vademecum.asud.net/
   title: "Come diventare sentinelle ambientali"
-  # favicon: risorse/favicon.png
   twitter-card:
     creator: "@ASudOnlus"
     card-style: summary_large_image
