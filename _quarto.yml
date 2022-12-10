@@ -11,6 +11,7 @@ book:
   title: "Come diventare sentinelle ambientali"
   page-navigation: true
   site-url: https://vademecum.asud.net/
+  favicon: imgs/favicon.png
 
   twitter-card:
     creator: "@ASudOnlus"
