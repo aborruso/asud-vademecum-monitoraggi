@@ -6,6 +6,8 @@ project:
     - "*.qmd"
     - "!tmp/"
     - "!LICENSE.md"
+    - "!cultura-dato/scaricabili.qmd"
+
 
 book:
   title: "Come diventare sentinelle ambientali"
@@ -65,7 +67,7 @@ book:
         - cultura-dato/licenza.qmd
         - cultura-dato/formati.qmd
         - cultura-dato/forma.qmd
-        - cultura-dato/scaricabili.qmd
+        # - cultura-dato/scaricabili.qmd
     - part: "Strumenti"
       chapters:
         - cultura-dato/accesso.qmd
