@@ -43,7 +43,7 @@ Alcuni dei diritti legati ai dati:
 Documento: la rappresentazione di **atti**, **fatti** e **dati** a prescindere dal supporto nella disponibilità della pubblica amministrazione o dell'organismo di diritto pubblico.
 :::
 
-Sono **diritti** che si **applicano** a **tutti i documenti contenenti dati pubblici detenuti da pubbliche amministrazioni**, organismi di diritto pubblico, imprese pubbliche e private, ad eccezione di quelli indicati nel paragrafo "[Documenti esclusi dall'applicazione](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/ambito-di-applicazione.html#par-1-2)" delle "Linee Guida Open Data".
+Sono **diritti** che si **applicano** a **tutti i documenti contenenti dati pubblici detenuti da pubbliche amministrazioni**, organismi di diritto pubblico, imprese pubbliche, ad eccezione di quelli indicati nel paragrafo "[Documenti esclusi dall'applicazione](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/ambito-di-applicazione.html#par-1-2)" delle "Linee Guida Open Data".
 
 
 ::: {.callout-tip}

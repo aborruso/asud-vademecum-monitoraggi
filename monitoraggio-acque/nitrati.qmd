@@ -26,7 +26,7 @@ ll nitrato (NO3-) è sia solubile che mobile e di conseguenza segue le dinamiche
 
 
 ::: {.callout-tip}
-## LISCIVIAZIONE
+## Lisciviazione
 Processo per cui le sostanze organiche ed i sali minerali solubili filtrano dagli strati superficiali del suolo verso quelli più profondi, per effetto della percolazione delle acque piovane.
 :::
 
