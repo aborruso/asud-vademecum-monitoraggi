@@ -326,6 +326,6 @@
     "href": "cultura-dato/creare-csv.html#creare-un-file-csv-a-mano",
     "title": "Creare un file CSV",
     "section": "Creare un file CSV “a mano”",
-    "text": "Creare un file CSV “a mano”\nUn file CSV è un file di testo, quindi si può “scrivere” usando un editor di testo e poi salvando con nome. Però è scosigliato perché è facile commettere qualche errore (ad esempio dimenticare un separatore di colonna) e creare un file non valido.\n{#fig-notepad-csv fig-alt=“Creare un file CSV”a mano”}"
+    "text": "Creare un file CSV “a mano”\nUn file CSV è un file di testo, quindi si può “scrivere” usando un editor di testo e poi salvando con nome. Però è scosigliato perché è facile commettere qualche errore (ad esempio dimenticare un separatore di colonna) e creare un file non valido.\n\n\n\nFigura 22.5: Creare un file CSV “a mano”"
   }
 ]

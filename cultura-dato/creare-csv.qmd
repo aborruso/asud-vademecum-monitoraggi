@@ -52,4 +52,4 @@ L'*encoding* sarà l'`UTF-8` e il separatore di campo sarà la virgola `,`.
 Un file CSV è un file di testo, quindi si può "scrivere" usando un *editor* di testo e poi salvando con nome.<br>
 Però è scosigliato perché è facile commettere qualche errore (ad esempio dimenticare un separatore di colonna) e creare un file non valido.
 
-![Creare un file CSV "a mano"](imgs/csv-notepad.png){#fig-notepad-csv fig-alt="Creare un file CSV "a mano"}
+![Creare un file CSV "a mano"](imgs/csv-notepad.png){#fig-notepad-csv fig-alt="Creare un file CSV a mano"}
