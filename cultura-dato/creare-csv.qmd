@@ -10,12 +10,12 @@ Questi i passi da seguire:
 
 - scegliere nel menu `File` la voce `Salva con nome`;
 
-![LibreOffice Calc - Salva con nome](imgs/libreoffice-save-as.png)
+![LibreOffice Calc - Salva con nome](imgs/libreoffice-save-as.png){#fig-libreoffice-save-as fig-alt="LibreOffice Calc - Salva con nome"}
 
 - dare un nome al file e scegliere come formato `Testo CSV`
 - apparirà poi questa finestra di dialogo
 
-![Opzioni - formato CSV](imgs/libreoffice-csv-format.png)
+![Opzioni - formato CSV](imgs/libreoffice-csv-format.png){#fig-libreoffice-csv-option fig-alt="Opzioni - formato CSV"}
 
 - scegliere come set di caratteri l'`Unicode (UTF-8)`, come separatore di campo la virgola `,` e come delimitatore di testo le virgolette `"`. Lasciare le altre opzioni non selezionate. (come sotto);
 - salvare il file.
@@ -32,7 +32,7 @@ Questi i passi da seguire:
 
 L'*encoding* sarà l'`UTF-8` e il separatore di campo sarà la virgola `,`.
 
-![Microsoft Excel - Salva con nome](imgs/excel-save-as.png)
+![Microsoft Excel - Salva con nome](imgs/excel-save-as.png){#fig-microsoft-save-as fig-alt="Microsoft Excel - Salva con nome"}
 
 ## Creare un file CSV con Google Sheets
 
@@ -45,11 +45,11 @@ Questi i passi da seguire:
 L'*encoding* sarà l'`UTF-8` e il separatore di campo sarà la virgola `,`.
 
 
-![Google Sheets - Salva con nome](imgs/sheet-save-as.png)
+![Google Sheets - Salva con nome](imgs/sheet-save-as.png){#fig-googlesheets-save-as fig-alt="Google Sheets - Salva con nome"}
 
 ## Creare un file CSV "a mano"
 
 Un file CSV è un file di testo, quindi si può "scrivere" usando un *editor* di testo e poi salvando con nome.<br>
 Però è scosigliato perché è facile commettere qualche errore (ad esempio dimenticare un separatore di colonna) e creare un file non valido.
 
-![Creare un file CSV "a mano"](imgs/csv-notepad.png)
+![Creare un file CSV "a mano"](imgs/csv-notepad.png){#fig-notepad-csv fig-alt="Creare un file CSV "a mano"}

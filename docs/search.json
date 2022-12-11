@@ -305,27 +305,27 @@
     "href": "cultura-dato/creare-csv.html#creare-un-file-csv-con-libreoffice-calc",
     "title": "Creare un file CSV",
     "section": "Creare un file CSV con LibreOffice Calc",
-    "text": "Creare un file CSV con LibreOffice Calc\nQuesti i passi da seguire:\n\nscegliere nel menu File la voce Salva con nome;\n\n\n\n\nLibreOffice Calc - Salva con nome\n\n\n\ndare un nome al file e scegliere come formato Testo CSV\napparirà poi questa finestra di dialogo\n\n\n\n\nOpzioni - formato CSV\n\n\n\nscegliere come set di caratteri l’Unicode (UTF-8), come separatore di campo la virgola , e come delimitatore di testo le virgolette \". Lasciare le altre opzioni non selezionate. (come sotto);\nsalvare il file."
+    "text": "Creare un file CSV con LibreOffice Calc\nQuesti i passi da seguire:\n\nscegliere nel menu File la voce Salva con nome;\n\n\n\n\nFigura 22.1: LibreOffice Calc - Salva con nome\n\n\n\ndare un nome al file e scegliere come formato Testo CSV\napparirà poi questa finestra di dialogo\n\n\n\n\nFigura 22.2: Opzioni - formato CSV\n\n\n\nscegliere come set di caratteri l’Unicode (UTF-8), come separatore di campo la virgola , e come delimitatore di testo le virgolette \". Lasciare le altre opzioni non selezionate. (come sotto);\nsalvare il file."
   },
   {
     "objectID": "cultura-dato/creare-csv.html#creare-un-file-csv-con-microsoft-excel",
     "href": "cultura-dato/creare-csv.html#creare-un-file-csv-con-microsoft-excel",
     "title": "Creare un file CSV",
     "section": "Creare un file CSV con Microsoft Excel",
-    "text": "Creare un file CSV con Microsoft Excel\nQuesti i passi da seguire:\n\nattivare la procedura per “Salvare con nome”;\nsceglier il nome del file;\nscegliere come formato CSV UTF-8 (delimitato da virgole);\nsalvare il file.\n\nL’encoding sarà l’UTF-8 e il separatore di campo sarà la virgola ,.\n\n\n\nMicrosoft Excel - Salva con nome"
+    "text": "Creare un file CSV con Microsoft Excel\nQuesti i passi da seguire:\n\nattivare la procedura per “Salvare con nome”;\nsceglier il nome del file;\nscegliere come formato CSV UTF-8 (delimitato da virgole);\nsalvare il file.\n\nL’encoding sarà l’UTF-8 e il separatore di campo sarà la virgola ,.\n\n\n\nFigura 22.3: Microsoft Excel - Salva con nome"
   },
   {
     "objectID": "cultura-dato/creare-csv.html#creare-un-file-csv-con-google-sheets",
     "href": "cultura-dato/creare-csv.html#creare-un-file-csv-con-google-sheets",
     "title": "Creare un file CSV",
     "section": "Creare un file CSV con Google Sheets",
-    "text": "Creare un file CSV con Google Sheets\nQuesti i passi da seguire:\n\nscegliere “Download” dal menu File;\nscegliere “Comma Separated Values (.csv)”;\nsalvare il file.\n\nL’encoding sarà l’UTF-8 e il separatore di campo sarà la virgola ,.\n\n\n\nGoogle Sheets - Salva con nome"
+    "text": "Creare un file CSV con Google Sheets\nQuesti i passi da seguire:\n\nscegliere “Download” dal menu File;\nscegliere “Comma Separated Values (.csv)”;\nsalvare il file.\n\nL’encoding sarà l’UTF-8 e il separatore di campo sarà la virgola ,.\n\n\n\nFigura 22.4: Google Sheets - Salva con nome"
   },
   {
     "objectID": "cultura-dato/creare-csv.html#creare-un-file-csv-a-mano",
     "href": "cultura-dato/creare-csv.html#creare-un-file-csv-a-mano",
     "title": "Creare un file CSV",
     "section": "Creare un file CSV “a mano”",
-    "text": "Creare un file CSV “a mano”\nUn file CSV è un file di testo, quindi si può “scrivere” usando un editor di testo e poi salvando con nome. Però è scosigliato perché è facile commettere qualche errore (ad esempio dimenticare un separatore di colonna) e creare un file non valido.\n\n\n\nCreare un file CSV “a mano”"
+    "text": "Creare un file CSV “a mano”\nUn file CSV è un file di testo, quindi si può “scrivere” usando un editor di testo e poi salvando con nome. Però è scosigliato perché è facile commettere qualche errore (ad esempio dimenticare un separatore di colonna) e creare un file non valido.\n{#fig-notepad-csv fig-alt=“Creare un file CSV”a mano”}"
   }
 ]
