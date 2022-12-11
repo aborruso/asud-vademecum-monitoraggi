@@ -10,7 +10,7 @@ Il **15 marzo 2022** è [stata **pubblicata**](https://www.agid.gov.it/sites/def
 
 ::: {.callout-tip}
 ## La "Guida dei diritti di cittadinanza digitali" consultabile online
-Il documento è pubblicato **soltanto come PDF**. L'associazione onData per **diffonderlo** e **condividerlo** in modo più **ampio** ed **efficace**, ne ha [una **versione HTML**](https://ondata.github.io/guida-diritti-cittadinanza-digitali/presentazione/), **consultabile** e **condivisibile** da **qualsiasi terminale**.
+Il documento è pubblicato **soltanto come PDF**. L'associazione onData per **diffonderlo** e **condividerlo** in modo più **ampio** ed **efficace**, ne ha creato [una **versione HTML**](https://ondata.github.io/guida-diritti-cittadinanza-digitali/presentazione/), **consultabile** e **condivisibile** da **qualsiasi terminale**.
 :::
 
 Come è riportato sul sito di AgID, i **diritti di cittadinanza digitali** risultano **concreti quando** chiunque può:
