@@ -18,11 +18,11 @@ book:
   twitter-card:
     creator: "@ASudOnlus"
     card-style: summary_large_image
-    image: "/imgs/cover.png"
+    image: "/imgs/cover-og.png"
     description: "Il vademecum/la guida che ti spiega come fare un progetto di monitoraggio ambientale partecipato e come accedere  alle informazioni ambientali"
   open-graph:
     locale: it_IT
-    image: "/imgs/cover.png"
+    image: "/imgs/cover-og.png"
     description: "Il vademecum/la guida che ti spiega come fare un progetto di monitoraggio ambientale partecipato e come accedere  alle informazioni ambientali"
 
   sidebar:
